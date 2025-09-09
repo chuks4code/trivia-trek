@@ -2,6 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:trivia_trek/screens/answer_review_screen.dart';
+import 'package:trivia_trek/styles/styles_text_and_constant.dart';
 
 import '../providers/trivia_provider.dart';
 
@@ -25,7 +27,9 @@ class _TriviaHomePageState extends ConsumerState<TriviaHomePage> {
 
   void startTimer() {
     timer?.cancel(); // only cancel if timer is not null
-    setState(() => remainingSeconds = 100); // reset to minutes
+    setState(
+      () => remainingSeconds = AppStyles.countDownTime,
+    ); // reset to minutes
     timer = Timer.periodic(Duration(seconds: 1), (t) {
       //.periodic runs continues every one sec until cancelled
       if (remainingSeconds > 0) {
@@ -62,53 +66,97 @@ class _TriviaHomePageState extends ConsumerState<TriviaHomePage> {
     final questions = ref.watch(questionsProvider);
     final currentIndexMain = ref.watch(currentQuestionProvider);
     final score = ref.watch(scoreProvider);
+    final answered = ref.watch(answerdQuestinsProvider);
 
     // End of quiz (either finished questions OR timer ended)
     if (currentIndexMain >= questions.length || remainingSeconds <= 0) {
       timer?.cancel();
       return Scaffold(
-        appBar: AppBar(title: Text('Trivia Trek'), centerTitle: true),
+        // backgroundColor: Colors.grey.shade300,
+        appBar: AppBar(
+          automaticallyImplyLeading:
+              false, // removes the back arrow so user only use button
+          title: Text('Trivia Trek'),
+          centerTitle: true,
+        ),
+        backgroundColor: Colors.white54,
         body: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text('Time is up!', style: TextStyle(fontSize: 24)),
-              SizedBox(height: 20),
-              Text(
-                'Your Score: $score / ${questions.length}',
-                style: TextStyle(fontSize: 20),
-              ),
-              SizedBox(height: 20),
-              ElevatedButton(
-                onPressed: () {
-                  ref.read(currentQuestionProvider.notifier).state = 0;
-                  ref.read(scoreProvider.notifier).state = 0;
-                  /*ref.read(selectedCategoryProvider.notifier).state =
-                      'Geography';*/
-                  startTimer();
+          child: Card(
+            elevation: 5, // elevation for the card widget
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(20),
+            ),
+            margin: EdgeInsets.all(20.0),
+            child: Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: SizedBox(
+                width: double.infinity,
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Text('Time is up!', style: TextStyle(fontSize: 24)),
+                    SizedBox(height: 20),
+                    Text(
+                      'Your Score: $score / ${answered.length}',
+                      style: TextStyle(fontSize: 20),
+                    ),
+                    SizedBox(height: 20),
+                    ElevatedButton(
+                      onPressed: () {
+                        ref.invalidate(questionsProvider); //  forces re-shuffle
+                        ref.read(currentQuestionProvider.notifier).state = 0;
+                        ref.read(scoreProvider.notifier).state = 0;
+                        ref.read(answerdQuestinsProvider.notifier).state = [];
 
-                  /*   final currentQuestionProvider = StateProvider<int>((ref) => 0);
-                  final scoreProvider = StateProvider<int>((ref) => 0);
-                  final selectedCategoryProvider = StateProvider<String?>((ref) => null);*/
-                },
-                child: Text('Restart Quiz'),
+                        /*ref.read(selectedCategoryProvider.notifier).state =
+                            'Geography';*/
+                        startTimer();
+
+                        /*   final currentQuestionProvider = StateProvider<int>((ref) => 0);
+                        final scoreProvider = StateProvider<int>((ref) => 0);
+                        final selectedCategoryProvider = StateProvider<String?>((ref) => null);*/
+                      },
+                      child: Text('Restart Quiz'),
+                    ),
+                    SizedBox(height: 10.0),
+                    ElevatedButton(
+                      onPressed: () {
+                        Navigator.pop(context);
+
+                        ref.read(currentQuestionProvider.notifier).state = 0;
+                        ref.read(scoreProvider.notifier).state = 0;
+                        ref.read(answerdQuestinsProvider.notifier).state = [];
+                        ref.read(selectedCategoryProvider.notifier).state =
+                            null;
+                        startTimer();
+                      },
+                      child: Text('Return to category'),
+                    ),
+                    SizedBox(height: 10.0),
+                    ElevatedButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (_) => AnswerReviewScreen(),
+                          ),
+                        );
+                        // Navigator.pop(context);
+
+                        //ref.read(currentQuestionProvider.notifier).state = 0;
+                        //ref.read(scoreProvider.notifier).state = 0;
+                        //ref.read(selectedCategoryProvider.notifier).state = null;
+                        // startTimer();
+                      },
+                      child: Text(
+                        "See \n Answer(s) Review",
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ],
+                ),
               ),
-              SizedBox(height: 10.0),
-              ElevatedButton(
-                onPressed: () {
-                  Navigator.pop(context, "Hello from");
-                  /*  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => FirstScreen()),
-                  );*/
-                  ref.read(currentQuestionProvider.notifier).state = 0;
-                  ref.read(scoreProvider.notifier).state = 0;
-                  ref.read(selectedCategoryProvider.notifier).state = null;
-                  startTimer();
-                },
-                child: Text('Return to category'),
-              ),
-            ],
+            ),
           ),
         ),
       );
@@ -118,7 +166,7 @@ class _TriviaHomePageState extends ConsumerState<TriviaHomePage> {
     final optionLabels = ["A", "B", "C", "D"];
 
     return Scaffold(
-      backgroundColor: Colors.grey[200],
+      //backgroundColor: Colors.grey[200],
       appBar: PreferredSize(
         preferredSize: Size.fromHeight(60),
         child: AppBar(
@@ -170,7 +218,7 @@ class _TriviaHomePageState extends ConsumerState<TriviaHomePage> {
           ),
         ),
       ),
-
+      backgroundColor: Colors.white54,
       body: Center(
         child: Card(
           elevation: 5, // elevation for the card widget
@@ -190,7 +238,8 @@ class _TriviaHomePageState extends ConsumerState<TriviaHomePage> {
                   textAlign: TextAlign.center,
                 ),
                 SizedBox(height: 20),
-                ...List.generate(question.options.length, (index) {
+                ...List.generate(question.options.length, (indexx) {
+                  // value of indexx starts from 0
                   // number of option eg  options: ['Paris', 'London', 'Rome', 'Berlin'], 4
                   return Padding(
                     padding: const EdgeInsets.symmetric(vertical: 6),
@@ -204,15 +253,26 @@ class _TriviaHomePageState extends ConsumerState<TriviaHomePage> {
                         ),
                       ),
                       onPressed: () {
-                        if (index == question.correctIndex) {
+                        if (indexx == question.correctIndex) {
                           ref.read(scoreProvider.notifier).state++;
                         }
+
+                        // Add this question to answeredQuestionsProvider
+                        final answered = ref.read(
+                          answerdQuestinsProvider.notifier,
+                        );
+                        answered.state = [
+                          ...answered.state,
+                          question.copyWith(userAnswerIndex: indexx),
+                        ];
+
+                        // Move to next question
                         ref
                             .read(currentQuestionProvider.notifier)
                             .state++; // used this line to update to next question
                       },
                       child: Text(
-                        "${optionLabels[index]}.  ${question.options[index]}",
+                        "${optionLabels[indexx]}.  ${question.options[indexx]}",
                         style: TextStyle(
                           fontSize: 16,
                           fontWeight: FontWeight.bold,
@@ -245,9 +305,11 @@ class _TriviaHomePageState extends ConsumerState<TriviaHomePage> {
               IconButton(
                 icon: Icon(Icons.home, color: Colors.teal),
                 onPressed: () {
-                  /*ref.read(currentQuestionProvider.notifier).state = 0;
+                  Navigator.pop(context); // goes back a screen
+                  ref.invalidate(questionsProvider); // forces re-shuffle
+                  ref.read(currentQuestionProvider.notifier).state = 0;
                   ref.read(scoreProvider.notifier).state = 0;
-                  startTimer();*/
+                  ref.read(answerdQuestinsProvider.notifier).state = [];
                 },
               ),
               IconButton(

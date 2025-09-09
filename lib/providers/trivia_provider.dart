@@ -11,6 +11,8 @@ final currentQuestionProvider = StateProvider<int>((ref) => 0);
 // User score, used stateProvider coz we will update it , so mutetalbe. good for:
 final scoreProvider = StateProvider<int>((ref) => 0);
 
+final answerdQuestinsProvider = StateProvider<List<Question>>((ref) => []);
+
 // null = random questions from all categories
 final selectedCategoryProvider = StateProvider<String?>((ref) => null);
 
