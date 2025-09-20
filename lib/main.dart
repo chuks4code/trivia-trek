@@ -11,7 +11,16 @@ class TriviaTrekApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'TriviaTrek',
-      theme: ThemeData(primarySwatch: Colors.blue),
+      debugShowCheckedModeBanner: false,  // removes globally
+      theme: ThemeData(
+         appBarTheme: const AppBarTheme(
+           titleTextStyle: TextStyle(
+           fontWeight: FontWeight.w900,
+           color: Colors.black,
+           fontSize: 20.0,),
+         ),
+          scaffoldBackgroundColor:Colors.teal.shade400 ),
+
       home: FirstScreen(),
     );
   }

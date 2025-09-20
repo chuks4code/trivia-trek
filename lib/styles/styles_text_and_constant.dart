@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class AppStyles {
   static final TextStyle tileText = TextStyle(
-    fontWeight: FontWeight.bold,
+    fontWeight: FontWeight.w900,
     color: Colors.black,
     fontSize: 20.0,
   );
