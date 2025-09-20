@@ -17,18 +17,19 @@ class FirstScreen extends ConsumerWidget {
         elevation: 1,
         title: Text(
           "Trivia Trek",
-         // style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black),
+          // style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black),
         ),
         centerTitle: true,
       ),
       //backgroundColor: Colors.white54,
-////////////////////////////////////////////////////
+      ////////////////////////////////////////////////////
       body: Padding(
         padding: EdgeInsets.all(20.0),
         child: SingleChildScrollView(
           child: Column(
             children: [
               Container(
+                width: double.infinity, // take up all width
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(12),
@@ -154,7 +155,9 @@ class FirstScreen extends ConsumerWidget {
                                 null;
                             Navigator.push(
                               context,
-                              MaterialPageRoute(builder: (_) => TriviaHomePage()),
+                              MaterialPageRoute(
+                                builder: (_) => TriviaHomePage(),
+                              ),
                             );
                           },
                         ),
