@@ -114,7 +114,8 @@ final questionsByCategory = {
       correctIndex: 2,
     ),
     Question(
-      questionText: 'Which country has the most time zones?',
+      questionText:
+          'Which country has the most time zones including overseas territories?',
       options: ['USA', 'China', 'France', 'Russia'],
       correctIndex: 2,
     ),
@@ -228,6 +229,7 @@ final questionsByCategory = {
       options: ['China', 'South Korea', 'Japan', 'Thailand'],
       correctIndex: 2,
     ),
+    ////////////////////////stop her
     Question(
       questionText: 'Which river passes through Budapest?',
       options: ['Danube', 'Rhine', 'Seine', 'Elbe'],
@@ -251,7 +253,7 @@ final questionsByCategory = {
     Question(
       questionText: 'Which is the smallest continent by population?',
       options: ['Oceania', 'Antarctica', 'Europe', 'South America'],
-      correctIndex: 0,
+      correctIndex: 1,
     ),
     Question(
       questionText: 'Which country has the city of Reykjavik?',
@@ -340,6 +342,7 @@ final questionsByCategory = {
       options: ['Toronto', 'Vancouver', 'Ottawa', 'Montreal'],
       correctIndex: 2,
     ),
+    ///// stop her second
     Question(
       questionText: 'Which mountain range separates Europe and Asia?',
       options: ['Alps', 'Carpathians', 'Urals', 'Caucasus'],
@@ -418,7 +421,7 @@ final questionsByCategory = {
     Question(
       questionText: 'Which country has the most islands?',
       options: ['Norway', 'Sweden', 'Finland', 'Canada'],
-      correctIndex: 3,
+      correctIndex: 1,
     ),
     Question(
       questionText: 'Name the strait separating Europe and Asia in Turkey.',
@@ -513,8 +516,8 @@ final questionsByCategory = {
     ),
     Question(
       questionText: 'How many cantons does Switzerland have?',
-      options: ['Austria', 'Germany', 'Switzerland', 'Belgium'],
-      correctIndex: 2,
+      options: ['23', '24', '25', '26'],
+      correctIndex: 3,
     ),
     Question(
       questionText: 'What is the largest country in Africa by area?',
@@ -571,8 +574,6 @@ final questionsByCategory = {
       options: ['Australia', 'Fiji', 'Philippines', 'Indonesia'],
       correctIndex: 0,
     ),
-
-    // ... 83 more Geography questions
   ],
 
   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -602,16 +603,7 @@ final questionsByCategory = {
       options: ['1944', '1943', '1945', '1946'],
       correctIndex: 2,
     ),
-    Question(
-      questionText: 'Who discovered America in 1492?',
-      options: [
-        'Vasco da Gama',
-        'Ferdinand Magellan',
-        'Leif Erikson',
-        'Christopher Columbus',
-      ],
-      correctIndex: 3,
-    ),
+
     Question(
       questionText: 'Where did the Industrial Revolution begin?',
       options: ['France', 'Germany', 'USA', 'Britain'],
@@ -669,11 +661,7 @@ final questionsByCategory = {
       options: ['1787', '1788', '1789', '1790'],
       correctIndex: 2,
     ),
-    Question(
-      questionText: 'Who was the first Emperor of China?',
-      options: ['Qin Shi Huang', 'Liu Bang', 'Han Wudi', 'Emperor Gaozu'],
-      correctIndex: 0,
-    ),
+
     Question(
       questionText: 'Who wrote the Declaration of Independence?',
       options: [
@@ -748,6 +736,7 @@ final questionsByCategory = {
       options: ['1858', '1859', '1860', '1861'],
       correctIndex: 3,
     ),
+    ////// here 1st history
     Question(
       questionText: 'Who was the first chancellor of unified Germany?',
       options: [
@@ -804,16 +793,7 @@ final questionsByCategory = {
       options: ['Julius Caesar', 'Nero', 'Caligula', 'Augustus'],
       correctIndex: 3,
     ),
-    Question(
-      questionText: 'Which battle marked the end of Napoleon’s rule?',
-      options: [
-        'Battle of Leipzig',
-        'Battle of Austerlitz',
-        'Battle of Borodino',
-        'Battle of Waterloo',
-      ],
-      correctIndex: 3,
-    ),
+
     Question(
       questionText: 'In which year did the Great Fire of London occur?',
       options: ['1665', '1666', '1667', '1668'],
@@ -1020,6 +1000,8 @@ final questionsByCategory = {
       ],
       correctIndex: 0,
     ),
+
+    // hsitory 2nd
     Question(
       questionText:
           'Which war was fought between the British and the Zulu Kingdom?',
@@ -1534,6 +1516,7 @@ final questionsByCategory = {
       ],
       correctIndex: 0,
     ),
+    //// ggg
     Question(
       questionText: 'Which ancient civilization created the Rosetta Stone?',
       options: ['Greek', 'Roman', 'Egyptian', 'Babylonian'],
@@ -1686,16 +1669,7 @@ final questionsByCategory = {
       options: ['Romans', 'Egyptians', 'Babylonians', 'Nabateans'],
       correctIndex: 3,
     ),
-    Question(
-      questionText: 'Who discovered America in 1492?',
-      options: [
-        'Vasco da Gama',
-        'Ferdinand Magellan',
-        'John Cabot',
-        'Christopher Columbus',
-      ],
-      correctIndex: 3,
-    ),
+
     Question(
       questionText: 'Which war ended with the Treaty of Paris in 1783?',
       options: [
@@ -1742,11 +1716,7 @@ final questionsByCategory = {
       ],
       correctIndex: 1,
     ),
-    Question(
-      questionText: 'Who was the first emperor of China?',
-      options: ['Qin Shi Huang', 'Liu Bang', 'Han Wudi', 'Zhao Kuangyin'],
-      correctIndex: 0,
-    ),
+
     Question(
       questionText: 'In which year did the Titanic sink?',
       options: ['1910', '1911', '1912', '1913'],
@@ -1828,11 +1798,7 @@ final questionsByCategory = {
       ],
       correctIndex: 3,
     ),
-    Question(
-      questionText: 'Who was the famous female pharaoh of Egypt?',
-      options: ['Cleopatra', 'Nefertiti', 'Hatshepsut', 'Sobekneferu'],
-      correctIndex: 3,
-    ),
+
     Question(
       questionText: 'In which city was the Declaration of Human Rights signed?',
       options: ['Paris', 'Geneva', 'New York', 'Vienna'],
@@ -1896,8 +1862,6 @@ final questionsByCategory = {
       ],
       correctIndex: 1,
     ),
-
-    // ... more History questions
   ],
 
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1922,16 +1886,7 @@ final questionsByCategory = {
       ],
       correctIndex: 1,
     ),
-    Question(
-      questionText: 'Which movie won the Best Picture Oscar in 1994?',
-      options: [
-        'Pulp Fiction',
-        'Forrest Gump',
-        'The Shawshank Redemption',
-        'Lion King',
-      ],
-      correctIndex: 1,
-    ),
+
     Question(
       questionText: 'Who played the character of Tony Stark?',
       options: [
@@ -1962,11 +1917,7 @@ final questionsByCategory = {
       options: ['Spider-Man', 'Batman', 'Deadpool', 'Superman'],
       correctIndex: 1,
     ),
-    Question(
-      questionText: 'Which actor played Jack Dawson in Titanic?',
-      options: ['Matt Damon', 'Leonardo DiCaprio', 'Brad Pitt', 'Tom Cruise'],
-      correctIndex: 1,
-    ),
+
     Question(
       questionText: 'Who directed "Inception"?',
       options: [
@@ -2018,11 +1969,6 @@ final questionsByCategory = {
       correctIndex: 1,
     ),
     Question(
-      questionText: 'Who is the main character in The Matrix?',
-      options: ['Neo', 'Morpheus', 'Trinity', 'Agent Smith'],
-      correctIndex: 0,
-    ),
-    Question(
       questionText: 'Which actress played Hermione Granger?',
       options: [
         'Emma Watson',
@@ -2050,16 +1996,6 @@ final questionsByCategory = {
     Question(
       questionText: 'In which movie does Simba appear?',
       options: ['The Lion King', 'Tarzan', 'Aladdin', 'Hercules'],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'Who played the character Deadpool?',
-      options: [
-        'Ryan Reynolds',
-        'Chris Hemsworth',
-        'Chris Evans',
-        'Hugh Jackman',
-      ],
       correctIndex: 0,
     ),
     Question(
@@ -2169,16 +2105,7 @@ final questionsByCategory = {
       options: ['Tom Hanks', 'Tim Allen', 'Billy Crystal', 'John Goodman'],
       correctIndex: 1,
     ),
-    Question(
-      questionText: 'Identify the movie where a ring is central to the plot.',
-      options: [
-        'Harry Potter',
-        'The Lord of the Rings',
-        'The Hobbit',
-        'Percy Jackson',
-      ],
-      correctIndex: 1,
-    ),
+
     Question(
       questionText: 'Name the villain in the movie "Avengers: Infinity War".',
       options: ['Loki', 'Thanos', 'Ultron', 'Hela'],
@@ -2199,21 +2126,8 @@ final questionsByCategory = {
       ],
       correctIndex: 1,
     ),
-    Question(
-      questionText: 'Name the film where Simba is the main character.',
-      options: ['Tarzan', 'The Lion King', 'Aladdin', 'Hercules'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Identify the director of "Avatar".',
-      options: [
-        'Steven Spielberg',
-        'Peter Jackson',
-        'James Cameron',
-        'George Lucas',
-      ],
-      correctIndex: 2,
-    ),
+
+    /////fff
     Question(
       questionText: 'Who is the actress playing Hermione Granger?',
       options: [
@@ -2278,12 +2192,6 @@ final questionsByCategory = {
       correctIndex: 0,
     ),
     Question(
-      questionText:
-          'Name the character that says “I am your father” in Star Wars.',
-      options: ['Luke Skywalker', 'Darth Vader', 'Obi-Wan Kenobi', 'Han Solo'],
-      correctIndex: 1,
-    ),
-    Question(
       questionText: 'In “Finding Nemo”, what type of fish is Nemo?',
       options: ['Clownfish', 'Goldfish', 'Angelfish', 'Betta'],
       correctIndex: 0,
@@ -2294,17 +2202,7 @@ final questionsByCategory = {
       correctIndex: 0,
     ),
     Question(
-      questionText: 'Who directed “Inception”?',
-      options: [
-        'Christopher Nolan',
-        'Steven Spielberg',
-        'James Cameron',
-        'Quentin Tarantino',
-      ],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'Name the villain in “The Avengers” (2012).',
+      questionText: 'Identify the villain in “The Avengers” (2012).',
       options: ['Loki', 'Thanos', 'Ultron', 'Red Skull'],
       correctIndex: 0,
     ),
@@ -2355,16 +2253,6 @@ final questionsByCategory = {
       correctIndex: 2,
     ),
     Question(
-      questionText: 'Name the actor who portrayed Deadpool.',
-      options: [
-        'Chris Evans',
-        'Ryan Reynolds',
-        'Hugh Jackman',
-        'Robert Downey Jr.',
-      ],
-      correctIndex: 1,
-    ),
-    Question(
       questionText: 'In the movie "Titanic", who played Rose?',
       options: [
         'Kate Winslet',
@@ -2373,22 +2261,6 @@ final questionsByCategory = {
         'Sandra Bullock',
       ],
       correctIndex: 0,
-    ),
-    Question(
-      questionText: 'Identify the director of "The Dark Knight".',
-      options: [
-        'Tim Burton',
-        'Christopher Nolan',
-        'Steven Spielberg',
-        'James Cameron',
-      ],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText:
-          'Name the character that says "I am your father" in Star Wars.',
-      options: ['Luke Skywalker', 'Darth Vader', 'Obi-Wan Kenobi', 'Han Solo'],
-      correctIndex: 1,
     ),
     Question(
       questionText: 'In "Inception", who is the architect of the dream worlds?',
@@ -2401,68 +2273,8 @@ final questionsByCategory = {
       correctIndex: 0,
     ),
     Question(
-      questionText: 'Name the country featured in “Black Panther”.',
-      options: ['Genovia', 'Wakanda', 'Latveria', 'Atlantis'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Who played Iron Man in the MCU?',
-      options: [
-        'Chris Evans',
-        'Mark Ruffalo',
-        'Robert Downey Jr.',
-        'Chris Hemsworth',
-      ],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Identify the movie where a snowman named Olaf appears.',
-      options: ['Tangled', 'Frozen', 'Moana', 'Brave'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Name the director of "Avatar".',
-      options: [
-        'Peter Jackson',
-        'James Cameron',
-        'Steven Spielberg',
-        'George Lucas',
-      ],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Who plays Jack Sparrow?',
-      options: ['Johnny Depp', 'Orlando Bloom', 'Tom Hardy', 'Brad Pitt'],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'Identify the villain in "The Avengers" (2012).',
-      options: ['Loki', 'Thanos', 'Ultron', 'Red Skull'],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'In “Frozen”, what power does Elsa have?',
-      options: ['Fire', 'Ice', 'Water', 'Wind'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Name the movie where toys come to life.',
-      options: ['The Lego Movie', 'Toy Story', 'Minions', 'Despicable Me'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Identify the actor who played Jack Dawson.',
-      options: ['Tom Cruise', 'Leonardo DiCaprio', 'Brad Pitt', 'Matt Damon'],
-      correctIndex: 1,
-    ),
-    Question(
       questionText: 'Name the wizarding school attended by Harry Potter.',
       options: ['Durmstrang', 'Beauxbatons', 'Hogwarts', 'Ilvermorny'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'In “The Matrix”, what color pill does Neo take?',
-      options: ['Blue', 'Green', 'Red', 'Yellow'],
       correctIndex: 2,
     ),
     Question(
@@ -2474,16 +2286,6 @@ final questionsByCategory = {
       questionText: 'Name the protagonist of “The Dark Knight”.',
       options: ['Joker', 'Harvey Dent', 'Batman', 'Robin'],
       correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Identify the actress playing Black Widow.',
-      options: [
-        'Gal Gadot',
-        'Brie Larson',
-        'Elizabeth Olsen',
-        'Scarlett Johansson',
-      ],
-      correctIndex: 3,
     ),
     Question(
       questionText: 'Name the film where a ring is central to the plot.',
@@ -2510,6 +2312,17 @@ final questionsByCategory = {
       options: ['Aladdin', 'Hercules', 'The Lion King', 'Tarzan'],
       correctIndex: 2,
     ),
+    Question(
+      questionText: 'Identify the director of "Avatar".',
+      options: [
+        'Peter Jackson',
+        'James Cameron',
+        'Steven Spielberg',
+        'George Lucas',
+      ],
+      correctIndex: 1,
+    ),
+    //////hff
     Question(
       questionText: 'Name the protagonist of Deadpool.',
       options: [
@@ -2588,16 +2401,6 @@ final questionsByCategory = {
       correctIndex: 1,
     ),
     Question(
-      questionText: 'Name the animated movie featuring a lost fish named Nemo.',
-      options: [
-        'Finding Dory',
-        'Shark Tale',
-        'The Little Mermaid',
-        'Finding Nemo',
-      ],
-      correctIndex: 3,
-    ),
-    Question(
       questionText: 'Identify the director of “Titanic”.',
       options: [
         'James Cameron',
@@ -2622,22 +2425,6 @@ final questionsByCategory = {
         'Scarlett Johansson',
       ],
       correctIndex: 1,
-    ),
-    Question(
-      questionText:
-          'Name the movie where toys come to life when humans are absent.',
-      options: ['The Lego Movie', 'Minions', 'Toy Story', 'Despicable Me'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Identify the actor who portrayed Deadpool.',
-      options: [
-        'Hugh Jackman',
-        'Chris Hemsworth',
-        'Ryan Gosling',
-        'Ryan Reynolds',
-      ],
-      correctIndex: 3,
     ),
     Question(
       questionText: 'Name the protagonist in “The Matrix”.',
@@ -2687,78 +2474,6 @@ final questionsByCategory = {
         'Elizabeth Olsen',
         'Scarlett Johansson',
       ],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'Identify the main character in “Finding Nemo”.',
-      options: ['Dory', 'Marlin', 'Gill', 'Nemo'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'Name the protagonist in “The Dark Knight”.',
-      options: ['Joker', 'Harvey Dent', 'Robin', 'Batman'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText:
-          'Identify the movie that popularized the phrase “May the Force be with you”.',
-      options: [
-        'Star Trek',
-        'Guardians of the Galaxy',
-        'Battlestar Galactica',
-        'Star Wars',
-      ],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'Name the actor who plays Tony Stark.',
-      options: [
-        'Chris Evans',
-        'Chris Hemsworth',
-        'Mark Ruffalo',
-        'Robert Downey Jr.',
-      ],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText:
-          'Identify the movie where dreams are layered within dreams.',
-      options: ['Shutter Island', 'Memento', 'The Prestige', 'Inception'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'Name the film where a snowman named Olaf appears.',
-      options: ['Tangled', 'Moana', 'Brave', 'Frozen'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'Identify the villain in “Jurassic Park”.',
-      options: ['Dr. Grant', 'Ian Malcolm', 'John Hammond', 'Dennis Nedry'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'Name the movie with lightsabers.',
-      options: ['Avatar', 'Guardians of the Galaxy', 'Star Trek', 'Star Wars'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'Identify the actor voicing Buzz Lightyear.',
-      options: ['Tom Hanks', 'John Goodman', 'Billy Crystal', 'Tim Allen'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'Name the film featuring Simba as the main character.',
-      options: ['Aladdin', 'Hercules', 'Tarzan', 'The Lion King'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'Identify the actor who portrayed Jack Dawson.',
-      options: ['Brad Pitt', 'Matt Damon', 'Tom Cruise', 'Leonardo DiCaprio'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'Name the wizarding school attended by Harry Potter.',
-      options: ['Durmstrang', 'Beauxbatons', 'Ilvermorny', 'Hogwarts'],
       correctIndex: 3,
     ),
     Question(
@@ -2815,28 +2530,8 @@ final questionsByCategory = {
       correctIndex: 1,
     ),
     Question(
-      questionText: 'Identify the villain in “The Avengers” (2012).',
-      options: ['Thanos', 'Ultron', 'Loki', 'Red Skull'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'In “Toy Story”, who is Woody’s best friend?',
-      options: ['Buzz Lightyear', 'Mr. Potato Head', 'Jessie', 'Slinky Dog'],
-      correctIndex: 0,
-    ),
-    Question(
       questionText: 'Name the movie where a girl falls into a rabbit hole.',
       options: ['Maleficent', 'Alice in Wonderland', 'Cinderella', 'Peter Pan'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Identify the actor who played Tony Stark.',
-      options: [
-        'Chris Hemsworth',
-        'Robert Downey Jr.',
-        'Chris Evans',
-        'Mark Ruffalo',
-      ],
       correctIndex: 1,
     ),
     Question(
@@ -2855,39 +2550,14 @@ final questionsByCategory = {
       correctIndex: 0,
     ),
     Question(
-      questionText: 'Identify the movie featuring the quote: “I\'ll be back”.',
-      options: ['Predator', 'RoboCop', 'Terminator', 'Commando'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Name the villain in “Spider-Man: Homecoming”.',
+      questionText: 'Identify the villain in “Spider-Man: Homecoming”.',
       options: ['Vulture', 'Green Goblin', 'Doctor Octopus', 'Sandman'],
       correctIndex: 0,
-    ),
-    Question(
-      questionText: 'Identify the main character in “Finding Nemo”.',
-      options: ['Marlin', 'Dory', 'Gill', 'Nemo'],
-      correctIndex: 3,
     ),
     Question(
       questionText: 'In “Jurassic Park”, who created the park?',
       options: ['Ian Malcolm', 'John Hammond', 'Alan Grant', 'Dennis Nedry'],
       correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Name the actor who plays Deadpool.',
-      options: [
-        'Hugh Jackman',
-        'Ryan Reynolds',
-        'Chris Evans',
-        'Robert Downey Jr.',
-      ],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Identify the protagonist in “The Dark Knight”.',
-      options: ['Harvey Dent', 'Joker', 'Robin', 'Batman'],
-      correctIndex: 3,
     ),
     Question(
       questionText: 'Name the movie where a young lion becomes king.',
@@ -2903,17 +2573,6 @@ final questionsByCategory = {
       questionText: 'Identify the character played by Gal Gadot in DC movies.',
       options: ['Wonder Woman', 'Supergirl', 'Batgirl', 'Catwoman'],
       correctIndex: 0,
-    ),
-    Question(
-      questionText:
-          'Name the film featuring a magical academy for witches and wizards.',
-      options: [
-        'Percy Jackson',
-        'The Hobbit',
-        'Harry Potter',
-        'Fantastic Beasts',
-      ],
-      correctIndex: 2,
     ),
     Question(
       questionText: 'Identify the actor who voiced Woody in “Toy Story”.',
@@ -2932,52 +2591,10 @@ final questionsByCategory = {
       correctIndex: 1,
     ),
     Question(
-      questionText: 'Identify the actor who played Wolverine.',
-      options: [
-        'Chris Hemsworth',
-        'Ryan Reynolds',
-        'Hugh Jackman',
-        'Robert Pattinson',
-      ],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText:
-          'Name the film with the quote: “May the Force be with you”.',
-      options: [
-        'Star Trek',
-        'Guardians of the Galaxy',
-        'Battlestar Galactica',
-        'Star Wars',
-      ],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'Identify the villain in “Avengers: Infinity War”.',
-      options: ['Loki', 'Ultron', 'Red Skull', 'Thanos'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'Name the movie where Elsa has ice powers.',
-      options: ['Moana', 'Tangled', 'Brave', 'Frozen'],
-      correctIndex: 3,
-    ),
-    Question(
       questionText:
           'Name the movie where Jack says, "I\'m the king of the world!"',
       options: ['Titanic', 'Inception', 'Cast Away', 'The Notebook'],
       correctIndex: 0,
-    ),
-    Question(
-      questionText:
-          'Identify the actor who played the Joker in “The Dark Knight”.',
-      options: [
-        'Joaquin Phoenix',
-        'Jared Leto',
-        'Heath Ledger',
-        'Jack Nicholson',
-      ],
-      correctIndex: 2,
     ),
     Question(
       questionText:
@@ -3001,6 +2618,7 @@ final questionsByCategory = {
       options: ['Clownfish', 'Blue Tang', 'Goldfish', 'Surgeonfish'],
       correctIndex: 1,
     ),
+    ////kddi
     Question(
       questionText: 'Name the actor who played Forrest Gump.',
       options: ['Robin Williams', 'Tom Hanks', 'Matt Damon', 'Brad Pitt'],
@@ -3173,14 +2791,9 @@ final questionsByCategory = {
   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   'Animals': [
     Question(
-      questionText: 'What is the largest mammal in the world?',
+      questionText: 'The largest mammal on land is ?',
       options: ['Elephant', 'Blue Whale', 'Giraffe', 'Hippopotamus'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Which is the largest mammal on Earth?',
-      options: ['Elephant', 'Giraffe', 'Blue Whale', 'Hippopotamus'],
-      correctIndex: 2,
+      correctIndex: 0,
     ),
     Question(
       questionText: 'What is the fastest land animal?',
@@ -3203,16 +2816,7 @@ final questionsByCategory = {
       options: ['Shark', 'Piranha', 'Barracuda', 'Electric Eel'],
       correctIndex: 0,
     ),
-    Question(
-      questionText: 'What is the largest species of penguin?',
-      options: ['Adelie', 'Gentoo', 'King', 'Emperor'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'Which mammal is capable of true flight?',
-      options: ['Flying Squirrel', 'Bat', 'Sugar Glider', 'Hummingbird'],
-      correctIndex: 1,
-    ),
+
     Question(
       questionText: 'Which is the fastest bird in the world?',
       options: ['Peregrine Falcon', 'Eagle', 'Hawk', 'Ostrich'],
@@ -3245,15 +2849,11 @@ final questionsByCategory = {
       correctIndex: 0,
     ),
     Question(
-      questionText: 'Which is the only mammal capable of true flight?',
+      questionText: 'The only mammal capable of true flight?',
       options: ['Flying Fox', 'Bat', 'Sugar Glider', 'Hummingbird'],
       correctIndex: 1,
     ),
-    Question(
-      questionText: 'What is the largest species of penguin?',
-      options: ['King', 'Adelie', 'Gentoo', 'Emperor'],
-      correctIndex: 3,
-    ),
+
     Question(
       questionText:
           'Which reptile can change its skin color to blend with surroundings?',
@@ -3443,58 +3043,258 @@ final questionsByCategory = {
       options: ['Horse', 'Elephant', 'Giraffe', 'Camel'],
       correctIndex: 0, // Horse is correct
     ),
+    ///// first
+    Question(
+      questionText: 'What is the fastest land animal?',
+      options: ['Cheetah', 'Lion', 'Leopard', 'Tiger'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'Which bird is known for mimicking human speech?',
+      options: ['Sparrow', 'Parrot', 'Crow', 'Canary'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'How many legs does a spider have?',
+      options: ['6', '8', '10', '12'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText:
+          'Which fish is known for its sharp teeth and aggressive behavior?',
+      options: ['Shark', 'Piranha', 'Barracuda', 'Electric Eel'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'What is the largest species of penguin?',
+      options: ['Adelie', 'Gentoo', 'King', 'Emperor'],
+      correctIndex: 3,
+    ),
+    Question(
+      questionText: 'Which mammal is capable of true flight?',
+      options: ['Flying Squirrel', 'Bat', 'Sugar Glider', 'Hummingbird'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Which is the fastest bird in the world?',
+      options: ['Peregrine Falcon', 'Eagle', 'Hawk', 'Ostrich'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'Which animal lays the largest eggs?',
+      options: ['Ostrich', 'Eagle', 'Crocodile', 'Penguin'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'What is the primary diet of a koala?',
+      options: ['Bamboo', 'Eucalyptus Leaves', 'Grass', 'Fruits'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Which is the largest species of shark?',
+      options: ['Great White', 'Tiger Shark', 'Whale Shark', 'Hammerhead'],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText: 'Which animal is known as the King of the Jungle?',
+      options: ['Tiger', 'Lion', 'Elephant', 'Leopard'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText:
+          'Which animal can survive without water for several months?',
+      options: ['Camel', 'Kangaroo', 'Elephant', 'Horse'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText:
+          'Which reptile can change its skin color to blend with surroundings?',
+      options: ['Iguana', 'Chameleon', 'Gecko', 'Python'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Which sea animal has eight arms and is very intelligent?',
+      options: ['Squid', 'Octopus', 'Cuttlefish', 'Jellyfish'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Which bird is known for its large colorful beak?',
+      options: ['Toucan', 'Parrot', 'Hornbill', 'Pelican'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText:
+          'Which animal is known for playing dead as a defense mechanism?',
+      options: ['Opossum', 'Hedgehog', 'Skunk', 'Raccoon'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'Which is the fastest aquatic animal?',
+      options: ['Sailfish', 'Shark', 'Dolphin', 'Marlin'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'Which mammal is known to have the longest lifespan?',
+      options: ['Blue Whale', 'Elephant', 'Bowhead Whale', 'Giraffe'],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText: 'Which bird is famous for its elaborate courtship dance?',
+      options: ['Peacock', 'Flamingo', 'Swan', 'Albatross'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'Which insect can lift more than 50 times its body weight?',
+      options: ['Ant', 'Beetle', 'Grasshopper', 'Locust'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText:
+          'Which aquatic mammal is known for its intelligence and playful behavior?',
+      options: ['Whale', 'Dolphin', 'Seal', 'Manatee'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Which bird can fly backwards?',
+      options: ['Hummingbird', 'Sparrow', 'Parrot', 'Kingfisher'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'Which is the heaviest land animal?',
+      options: ['Giraffe', 'Hippopotamus', 'Elephant', 'Rhinoceros'],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText: 'Which marine animal has three hearts?',
+      options: ['Shark', 'Octopus', 'Dolphin', 'Whale'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Which bird is famous for storing food for winter?',
+      options: ['Crow', 'Sparrow', 'Jay', 'Pigeon'],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText: 'Which animal is known for changing its gender naturally?',
+      options: ['Clownfish', 'Seahorse', 'Starfish', 'Octopus'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText:
+          'Which mammal is known for having a pouch to carry its young?',
+      options: ['Kangaroo', 'Koala', 'Wallaby', 'Opossum'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'Which bird is flightless but an excellent swimmer?',
+      options: ['Penguin', 'Ostrich', 'Kiwi', 'Emu'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'Which animal is the largest species of cat?',
+      options: ['Lion', 'Tiger', 'Leopard', 'Jaguar'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Which insect produces honey?',
+      options: ['Ant', 'Wasp', 'Bee', 'Hornet'],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText:
+          'Which sea animal has a hard external shell and is known for walking sideways?',
+      options: ['Lobster', 'Crab', 'Shrimp', 'Hermit Crab'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Which is the tallest living animal on Earth?',
+      options: ['Elephant', 'Giraffe', 'Camel', 'Moose'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Which mammal is known to hang upside down in trees?',
+      options: ['Sloth', 'Bat', 'Opossum', 'Koala'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText:
+          'Which fish is known for its ability to inflate into a ball?',
+      options: ['Pufferfish', 'Angelfish', 'Clownfish', 'Lionfish'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText:
+          'Which bird is known for its large wingspan and scavenging behavior?',
+      options: ['Eagle', 'Vulture', 'Hawk', 'Condor'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Which animal is capable of regenerating lost body parts?',
+      options: ['Starfish', 'Crab', 'Lobster', 'Sea Urchin'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'Which is the only mammal that lays eggs?',
+      options: ['Platypus', 'Kangaroo', 'Opossum', 'Echidna'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText:
+          'Which amphibian is known for its ability to breathe through its skin?',
+      options: ['Frog', 'Salamander', 'Toad', 'Newt'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Which marine mammal is known for echolocation?',
+      options: ['Dolphin', 'Seal', 'Whale', 'Manatee'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'Which insect has the longest lifespan?',
+      options: ['Mayfly', 'Cicada', 'Termite Queen', 'Butterfly'],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText:
+          'Which reptile is capable of detaching its tail to escape predators?',
+      options: ['Lizard', 'Chameleon', 'Gecko', 'Iguana'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'Which animal has the longest neck?',
+      options: ['Camel', 'Giraffe', 'Llama', 'Alpaca'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Which animal is known as the “King of the Arctic”?',
+      options: ['Polar Bear', 'Walrus', 'Seal', 'Arctic Fox'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'Which mammal has the most powerful bite force?',
+      options: ['Lion', 'Crocodile', 'Hippopotamus', 'Jaguar'],
+      correctIndex: 3,
+    ),
+    Question(
+      questionText: 'Which animal sleeps standing up most of the time?',
+      options: ['Horse', 'Elephant', 'Giraffe', 'Camel'],
+      correctIndex: 0,
+    ),
     Question(
       questionText:
           'Which bird is famous for its long migrations across continents?',
       options: ['Swallow', 'Albatross', 'Goose', 'Swan'],
-      correctIndex: 1, // Albatross is correct
+      correctIndex: 1,
     ),
     Question(
       questionText: 'Which fish is known to have an electric shock?',
       options: ['Electric Eel', 'Pufferfish', 'Stingray', 'Shark'],
-      correctIndex: 0, // Electric Eel is correct
-    ),
-    Question(
-      questionText: 'Which animal is famous for carrying a shell on its back?',
-      options: ['Turtle', 'Snail', 'Crab', 'Hermit Crab'],
-      correctIndex: 0, // Turtle is correct
-    ),
-    Question(
-      questionText: 'Which animal is the fastest swimmer?',
-      options: ['Shark', 'Sailfish', 'Dolphin', 'Marlin'],
-      correctIndex: 1, // Sailfish is correct
-    ),
-    Question(
-      questionText: 'Which animal uses camouflage to hide from predators?',
-      options: [
-        'Chameleon',
-        'Octopus',
-        'Leaf-Tailed Gecko',
-        'All of the above',
-      ],
-      correctIndex: 3, // All of the above is correct
+      correctIndex: 0,
     ),
     Question(
       questionText: 'Which mammal is known for building dams in rivers?',
       options: ['Beaver', 'Otter', 'Muskrat', 'Capybara'],
-      correctIndex: 0, // Beaver is correct
-    ),
-    Question(
-      questionText:
-          'Which bird is known for having a colorful beak and tropical habitat?',
-      options: ['Toucan', 'Parrot', 'Hornbill', 'Flamingo'],
-      correctIndex: 0, // Toucan is correct
-    ),
-    Question(
-      questionText:
-          'Which sea creature is known for its eight arms and intelligence?',
-      options: ['Squid', 'Octopus', 'Cuttlefish', 'Jellyfish'],
-      correctIndex: 1, // Octopus is correct
-    ),
-    Question(
-      questionText: 'Which insect is known for forming colonies with a queen?',
-      options: ['Bee', 'Ant', 'Termite', 'All of the above'],
-      correctIndex: 3, // All of the above is correct
+      correctIndex: 0,
     ),
     Question(
       questionText: 'Name the largest land carnivore in the world.',
@@ -3502,20 +3302,10 @@ final questionsByCategory = {
       correctIndex: 3,
     ),
     Question(
-      questionText: 'What is the fastest bird in the sky?',
-      options: ['Eagle', 'Falcon', 'Hawk', 'Peregrine Falcon'],
-      correctIndex: 3,
-    ),
-    Question(
       questionText:
           'Which animal is known for living both on land and in water?',
       options: ['Frog', 'Crocodile', 'Salamander', 'Beaver'],
       correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Who is known as the “King of the Jungle”?',
-      options: ['Tiger', 'Lion', 'Elephant', 'Gorilla'],
-      correctIndex: 1,
     ),
     Question(
       questionText: 'In which habitat would you find a camel?',
@@ -3538,11 +3328,6 @@ final questionsByCategory = {
       correctIndex: 3,
     ),
     Question(
-      questionText: 'Name the animal with the longest lifespan.',
-      options: ['Elephant', 'Galapagos Tortoise', 'Whale', 'Shark'],
-      correctIndex: 1,
-    ),
-    Question(
       questionText: 'Which mammal is known for producing milk for its young?',
       options: ['Kangaroo', 'Bat', 'Platypus', 'All Mammals'],
       correctIndex: 3,
@@ -3551,11 +3336,6 @@ final questionsByCategory = {
       questionText: 'What type of animal is a seahorse?',
       options: ['Fish', 'Crustacean', 'Mollusk', 'Marine Vertebrate'],
       correctIndex: 0,
-    ),
-    Question(
-      questionText: 'Who is the largest animal in the world?',
-      options: ['Elephant', 'Shark', 'Giraffe', 'Blue Whale'],
-      correctIndex: 3,
     ),
     Question(
       questionText: 'Which bird is nocturnal and has exceptional night vision?',
@@ -3573,18 +3353,8 @@ final questionsByCategory = {
       correctIndex: 3,
     ),
     Question(
-      questionText: 'Name the only mammal capable of true flight.',
-      options: ['Flying Squirrel', 'Bat', 'Bird', 'Gliding Lemur'],
-      correctIndex: 1,
-    ),
-    Question(
       questionText: 'What is the main defense mechanism of a porcupine?',
       options: ['Teeth', 'Claws', 'Camouflage', 'Quills'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'Which aquatic animal has eight arms?',
-      options: ['Squid', 'Cuttlefish', 'Starfish', 'Octopus'],
       correctIndex: 3,
     ),
     Question(
@@ -3593,15 +3363,12 @@ final questionsByCategory = {
       correctIndex: 3,
     ),
     Question(
-      questionText: 'Who is known as the fastest land animal?',
-      options: ['Lion', 'Tiger', 'Leopard', 'Cheetah'],
-      correctIndex: 3,
-    ),
-    Question(
       questionText: 'Name the animal that carries its young in a pouch.',
       options: ['Koala', 'Wallaby', 'Kangaroo', 'Opossum'],
       correctIndex: 2,
     ),
+
+    ///hut
     Question(
       questionText:
           'Which animal is famous for changing its skin color to blend in?',
@@ -3659,21 +3426,6 @@ final questionsByCategory = {
       correctIndex: 0,
     ),
     Question(
-      questionText: 'What is the largest species of penguin?',
-      options: [
-        'Emperor Penguin',
-        'King Penguin',
-        'Adelie Penguin',
-        'Chinstrap Penguin',
-      ],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'Which mammal is capable of true flight?',
-      options: ['Flying Squirrel', 'Bat', 'Gliding Lemur', 'Sugar Glider'],
-      correctIndex: 1,
-    ),
-    Question(
       questionText: 'In which habitat would you find a kangaroo?',
       options: ['Jungle', 'Desert', 'Grasslands', 'Australia'],
       correctIndex: 3,
@@ -3685,12 +3437,7 @@ final questionsByCategory = {
     ),
     Question(
       questionText: 'Which bird is famous for its long neck and spotted coat?',
-      options: [
-        'Ostrich',
-        'Flamingo',
-        'Swan',
-        'Giraffe',
-      ], // Trick: Giraffe is a mammal
+      options: ['Ostrich', 'Flamingo', 'Swan', 'Giraffe'],
       correctIndex: 3,
     ),
     Question(
@@ -3730,11 +3477,6 @@ final questionsByCategory = {
       correctIndex: 1,
     ),
     Question(
-      questionText: 'Who is the largest predator in the Arctic?',
-      options: ['Seal', 'Orca', 'Walrus', 'Polar Bear'],
-      correctIndex: 3,
-    ),
-    Question(
       questionText:
           'Which animal can survive freezing temperatures and hibernates?',
       options: ['Bear', 'Groundhog', 'Hedgehog', 'Frog'],
@@ -3767,45 +3509,14 @@ final questionsByCategory = {
       correctIndex: 3,
     ),
     Question(
-      questionText: 'Who is known as the “Ship of the Desert”?',
-      options: ['Horse', 'Elephant', 'Camel', 'Donkey'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'In which environment do penguins primarily live?',
-      options: ['Tropics', 'Desert', 'Antarctica', 'Savannah'],
-      correctIndex: 2,
-    ),
-    Question(
       questionText: 'Which marine animal has eight arms?',
       options: ['Squid', 'Cuttlefish', 'Starfish', 'Octopus'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText:
-          'Name the animal known for changing its skin color to blend in.',
-      options: ['Chameleon', 'Octopus', 'Cuttlefish', 'All of the above'],
       correctIndex: 3,
     ),
     Question(
       questionText: 'Which mammal builds dams in rivers?',
       options: ['Otter', 'Muskrat', 'Beaver', 'Capybara'],
       correctIndex: 2,
-    ),
-    Question(
-      questionText: 'What is the largest species of shark?',
-      options: [
-        'Great White Shark',
-        'Tiger Shark',
-        'Hammerhead',
-        'Whale Shark',
-      ],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'Who is capable of true flight?',
-      options: ['Flying Squirrel', 'Bat', 'Gliding Lemur', 'Sugar Glider'],
-      correctIndex: 1,
     ),
     Question(
       questionText: 'Which bird migrates thousands of miles every year?',
@@ -3853,20 +3564,12 @@ final questionsByCategory = {
       correctIndex: 3,
     ),
     Question(
-      questionText: 'What is the main food of a koala?',
-      options: ['Grass', 'Leaves', 'Bamboo', 'Eucalyptus Leaves'],
-      correctIndex: 3,
-    ),
-    Question(
       questionText: 'Which animal is known for its black and white stripes?',
       options: ['Tiger', 'Okapi', 'Zebra', 'Skunk'],
       correctIndex: 2,
     ),
-    Question(
-      questionText: 'Who is the fastest land animal?',
-      options: ['Leopard', 'Lion', 'Horse', 'Cheetah'],
-      correctIndex: 3,
-    ),
+
+    ///jhg
     Question(
       questionText: 'Which ocean mammal is the largest?',
       options: ['Killer Whale', 'Humpback Whale', 'Sperm Whale', 'Blue Whale'],
@@ -3881,11 +3584,6 @@ final questionsByCategory = {
       questionText: 'What is the largest species of lizard?',
       options: ['Monitor Lizard', 'Iguana', 'Komodo Dragon', 'Chameleon'],
       correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Which mammal is capable of true flight?',
-      options: ['Flying Squirrel', 'Bat', 'Sugar Glider', 'Colugo'],
-      correctIndex: 1,
     ),
     Question(
       questionText: 'In which environment would you find a penguin?',
@@ -3920,11 +3618,6 @@ final questionsByCategory = {
     Question(
       questionText: 'What is the main predator of rabbits in the wild?',
       options: ['Fox', 'Snake', 'Eagle', 'Coyote'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'Which bird migrates thousands of miles every year?',
-      options: ['Swan', 'Goose', 'Albatross', 'Stork'],
       correctIndex: 3,
     ),
     Question(
@@ -3995,11 +3688,6 @@ final questionsByCategory = {
       correctIndex: 3,
     ),
     Question(
-      questionText: 'Which animal is known for its ability to change color?',
-      options: ['Chameleon', 'Frog', 'Octopus', 'Cuttlefish'],
-      correctIndex: 3,
-    ),
-    Question(
       questionText: 'Name the fastest aquatic animal.',
       options: ['Dolphin', 'Marlin', 'Tuna', 'Sailfish'],
       correctIndex: 3,
@@ -4018,21 +3706,6 @@ final questionsByCategory = {
       questionText: 'Which mammal is known for producing a loud trumpet sound?',
       options: ['Elephant', 'Rhino', 'Hippo', 'Walrus'],
       correctIndex: 0,
-    ),
-    Question(
-      questionText: 'Name the largest species of penguin.',
-      options: [
-        'Adelie Penguin',
-        'King Penguin',
-        'Chinstrap Penguin',
-        'Emperor Penguin',
-      ],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'Which animal uses echolocation to navigate?',
-      options: ['Dolphin', 'Bat', 'Whale', 'All of the above'],
-      correctIndex: 3,
     ),
     Question(
       questionText: 'Who is known as the king of the jungle?',
@@ -4055,79 +3728,9 @@ final questionsByCategory = {
       correctIndex: 1,
     ),
     Question(
-      questionText: 'Name the largest species of shark.',
-      options: [
-        'Tiger Shark',
-        'Great White Shark',
-        'Hammerhead Shark',
-        'Whale Shark',
-      ],
-      correctIndex: 3,
-    ),
-    Question(
       questionText: 'Which mammal hibernates during winter?',
       options: ['Bear', 'Elephant', 'Horse', 'Lion'],
       correctIndex: 0,
-    ),
-    Question(
-      questionText: 'Who is capable of true flight?',
-      options: ['Flying Squirrel', 'Bat', 'Colugo', 'Sugar Glider'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Which marine animal has eight arms?',
-      options: ['Squid', 'Cuttlefish', 'Starfish', 'Octopus'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'In which environment would you find a lemur?',
-      options: ['Africa', 'Asia', 'Australia', 'Madagascar'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'What is the main diet of a giant panda?',
-      options: ['Meat', 'Fruits', 'Bamboo', 'Leaves'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Which animal is nocturnal?',
-      options: ['Owl', 'Bat', 'Hedgehog', 'All of the above'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'Name the largest land mammal.',
-      options: ['Hippo', 'Elephant', 'Rhinoceros', 'Giraffe'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Which bird migrates thousands of miles every year?',
-      options: ['Swan', 'Goose', 'Albatross', 'Stork'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Who produces honey?',
-      options: ['Wasp', 'Ant', 'Bee', 'Hornet'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Which mammal can store fat in its hump?',
-      options: ['Horse', 'Llama', 'Elephant', 'Camel'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'In which habitat do penguins primarily live?',
-      options: ['Tropics', 'Temperate', 'Arctic', 'Antarctica'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'What is the primary defense mechanism of a porcupine?',
-      options: ['Teeth', 'Claws', 'Camouflage', 'Quills'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'Which animal has a long neck and spots?',
-      options: ['Zebra', 'Horse', 'Camel', 'Giraffe'],
-      correctIndex: 3,
     ),
     Question(
       questionText: 'Which mammal lays eggs?',
@@ -4140,19 +3743,14 @@ final questionsByCategory = {
       correctIndex: 1,
     ),
     Question(
-      questionText: 'Which animal builds dams in rivers?',
-      options: ['Otter', 'Muskrat', 'Capybara', 'Beaver'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'Name the nocturnal predator of the night sky.',
-      options: ['Hawk', 'Falcon', 'Eagle', 'Owl'],
-      correctIndex: 3,
-    ),
-    Question(
       questionText: 'Which mammal is known for its black and white stripes?',
       options: ['Tiger', 'Okapi', 'Zebra', 'Skunk'],
       correctIndex: 2,
+    ),
+    Question(
+      questionText: 'Name the largest land mammal.',
+      options: ['Hippo', 'Elephant', 'Rhinoceros', 'Giraffe'],
+      correctIndex: 1,
     ),
     // ... more Animal questions
   ],
@@ -4164,6 +3762,444 @@ final questionsByCategory = {
       options: ['Au', 'Ag', 'Gd', 'Go'],
       correctIndex: 0,
     ),
+    Question(
+      questionText: 'Who developed the theory of general relativity?',
+      options: [
+        'Isaac Newton',
+        'Albert Einstein',
+        'Galileo Galilei',
+        'Nikola Tesla',
+      ],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Which planet is known for its rings?',
+      options: ['Jupiter', 'Mars', 'Saturn', 'Neptune'],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText: 'Name the process by which plants make their own food.',
+      options: [
+        'Respiration',
+        'Transpiration',
+        'Photosynthesis',
+        'Fermentation',
+      ],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText: 'How many bones are in the adult human body?',
+      options: ['206', '208', '201', '210'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'What is the speed of light in vacuum?',
+      options: ['300,000 km/s', '150,000 km/s', '299,792 km/s', '350,000 km/s'],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText: 'Where is the headquarters of NASA located?',
+      options: ['Los Angeles', 'Houston', 'Washington D.C.', 'New York'],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText: 'Which element is used in pencils?',
+      options: ['Graphite', 'Lead', 'Carbon', 'Platinum'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'What does DNA stand for?',
+      options: [
+        'Deoxyribonucleic Acid',
+        'Deoxyribonitric Acid',
+        'Dicarboxy Nucleic Acid',
+        'Dioxin Acid',
+      ],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'Who is considered the father of modern computers?',
+      options: ['Charles Babbage', 'Alan Turing', 'Bill Gates', 'Steve Jobs'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText:
+          'Name the force that keeps planets in orbit around the Sun.',
+      options: ['Magnetism', 'Gravity', 'Friction', 'Inertia'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Which gas do humans breathe in to survive?',
+      options: ['Carbon Dioxide', 'Oxygen', 'Nitrogen', 'Hydrogen'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'What is the unit of electric current?',
+      options: ['Volt', 'Ampere', 'Ohm', 'Watt'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'How many planets are in the Solar System?',
+      options: ['7', '8', '9', '10'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'In computers, what does CPU stand for?',
+      options: [
+        'Central Processing Unit',
+        'Central Program Unit',
+        'Control Processing Unit',
+        'Central Peripheral Unit',
+      ],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'Which planet is closest to the Sun?',
+      options: ['Venus', 'Mercury', 'Earth', 'Mars'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Name the scientist who discovered penicillin.',
+      options: [
+        'Alexander Fleming',
+        'Marie Curie',
+        'Louis Pasteur',
+        'Gregor Mendel',
+      ],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'What is H2O commonly known as?',
+      options: ['Hydrogen Peroxide', 'Water', 'Salt', 'Ozone'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Which planet is known as the Blue Planet?',
+      options: ['Earth', 'Neptune', 'Uranus', 'Saturn'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'How many chromosomes are in a human cell?',
+      options: ['46', '44', '48', '42'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'In technology, what does AI stand for?',
+      options: [
+        'Automatic Interface',
+        'Artificial Intelligence',
+        'Applied Integration',
+        'Algorithm Input',
+      ],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Where is the Large Hadron Collider located?',
+      options: ['Switzerland/France', 'USA', 'Germany', 'Japan'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'Which gas is used in balloons to make them float?',
+      options: ['Oxygen', 'Helium', 'Nitrogen', 'Hydrogen'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'What is the main gas found in the air we breathe?',
+      options: ['Oxygen', 'Nitrogen', 'Carbon Dioxide', 'Helium'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Who invented the telephone?',
+      options: [
+        'Thomas Edison',
+        'Alexander Graham Bell',
+        'Nikola Tesla',
+        'Guglielmo Marconi',
+      ],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Name the planet known for its red color.',
+      options: ['Mars', 'Venus', 'Jupiter', 'Mercury'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'Which device measures atmospheric pressure?',
+      options: ['Thermometer', 'Barometer', 'Hygrometer', 'Anemometer'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'What type of energy is stored in a stretched spring?',
+      options: ['Kinetic', 'Potential', 'Thermal', 'Chemical'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'How many bones are in the human skull?',
+      options: ['20', '22', '24', '26'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'In computing, what does RAM stand for?',
+      options: [
+        'Random Access Memory',
+        'Read Access Memory',
+        'Rapid Access Module',
+        'Read And Memory',
+      ],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'What is the powerhouse of the cell?',
+      options: ['Nucleus', 'Ribosome', 'Mitochondria', 'Endoplasmic Reticulum'],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText: 'Who formulated the laws of motion?',
+      options: [
+        'Galileo Galilei',
+        'Albert Einstein',
+        'Isaac Newton',
+        'Niels Bohr',
+      ],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText: 'Which element has the atomic number 1?',
+      options: ['Helium', 'Oxygen', 'Hydrogen', 'Nitrogen'],
+      correctIndex: 2,
+    ),
+    ////first science
+    Question(
+      questionText: 'What is the primary function of red blood cells?',
+      options: [
+        'Immune defense',
+        'Carry oxygen',
+        'Store energy',
+        'Produce hormones',
+      ],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText:
+          'Where is the International Space Station primarily orbiting?',
+      options: ['Earth', 'Mars', 'Moon', 'Venus'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText:
+          'Name the gas that makes up the majority of the Earth’s atmosphere.',
+      options: ['Oxygen', 'Carbon Dioxide', 'Nitrogen', 'Argon'],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText:
+          'How many planets are classified as gas giants in our Solar System?',
+      options: ['3', '4', '5', '2'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'In computing, what does SSD stand for?',
+      options: [
+        'Solid State Drive',
+        'System Storage Device',
+        'Sequential Storage Disk',
+        'Solid Speed Device',
+      ],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'Which organ in the human body produces insulin?',
+      options: ['Liver', 'Pancreas', 'Kidney', 'Gallbladder'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'What is the main component of the Sun?',
+      options: ['Helium', 'Oxygen', 'Hydrogen', 'Carbon'],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText: 'Who is credited with inventing the light bulb?',
+      options: [
+        'Nikola Tesla',
+        'Thomas Edison',
+        'James Watt',
+        'Michael Faraday',
+      ],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText:
+          'Which planet has the fastest rotation in the Solar System?',
+      options: ['Jupiter', 'Saturn', 'Neptune', 'Uranus'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText:
+          'Name the smallest particle of an element that retains its properties.',
+      options: ['Atom', 'Molecule', 'Electron', 'Proton'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'How many pairs of chromosomes do humans have?',
+      options: ['22', '23', '24', '25'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText:
+          'What type of electromagnetic wave has the shortest wavelength?',
+      options: ['X-rays', 'Gamma rays', 'Ultraviolet', 'Radio waves'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'In which organ does photosynthesis occur?',
+      options: ['Root', 'Stem', 'Leaf', 'Flower'],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText: 'Which planet is often called the Morning Star?',
+      options: ['Mars', 'Venus', 'Mercury', 'Jupiter'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'What is the SI unit of force?',
+      options: ['Joule', 'Newton', 'Watt', 'Pascal'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Which scientist discovered the electron?',
+      options: [
+        'Ernest Rutherford',
+        'J.J. Thomson',
+        'Niels Bohr',
+        'Marie Curie',
+      ],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Name the element with the symbol “Fe”.',
+      options: ['Fluorine', 'Francium', 'Iron', 'Fermium'],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText:
+          'Which device converts chemical energy into electrical energy?',
+      options: ['Battery', 'Generator', 'Motor', 'Transformer'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'What is the speed of sound in air approximately?',
+      options: ['343 m/s', '300 m/s', '400 m/s', '350 m/s'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'How many moons does Mars have?',
+      options: ['1', '2', '3', '4'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'In computing, what does URL stand for?',
+      options: [
+        'Universal Resource Locator',
+        'Uniform Resource Locator',
+        'Unique Resource Link',
+        'Universal Reference Link',
+      ],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Which organ is responsible for filtering blood in humans?',
+      options: ['Liver', 'Kidney', 'Spleen', 'Heart'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'What is the chemical formula for table salt?',
+      options: ['NaCl', 'KCl', 'NaOH', 'CaCl2'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText:
+          'Name the phenomenon where light bends passing from one medium to another.',
+      options: ['Reflection', 'Diffraction', 'Refraction', 'Dispersion'],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText: 'Which planet has a day longer than its year?',
+      options: ['Venus', 'Mercury', 'Earth', 'Mars'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'How many bones form the human spine?',
+      options: ['24', '26', '33', '30'],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText:
+          'Which programming language is primarily used for iOS app development?',
+      options: ['Java', 'Swift', 'Kotlin', 'C#'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'In which layer of the atmosphere does most weather occur?',
+      options: ['Stratosphere', 'Mesosphere', 'Troposphere', 'Thermosphere'],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText: 'Which planet has the largest volcano in the solar system?',
+      options: ['Mars', 'Venus', 'Jupiter', 'Saturn'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'What is the chemical symbol for silver?',
+      options: ['Si', 'Ag', 'Al', 'Au'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Who invented the first practical telephone?',
+      options: [
+        'Alexander Graham Bell',
+        'Thomas Edison',
+        'Nikola Tesla',
+        'Guglielmo Marconi',
+      ],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText:
+          'In what form does water exist at 0°C under normal pressure?',
+      options: ['Ice', 'Steam', 'Liquid', 'Vapor'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'What is the powerhouse of the cell?',
+      options: ['Ribosome', 'Nucleus', 'Endoplasmic Reticulum', 'Mitochondria'],
+      correctIndex: 3,
+    ),
+    Question(
+      questionText: 'Which gas is essential for photosynthesis?',
+      options: ['Oxygen', 'Carbon Dioxide', 'Nitrogen', 'Hydrogen'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'What does GPU stand for in computing?',
+      options: [
+        'Graphical Processing Unit',
+        'General Processing Unit',
+        'Graphic Performance Utility',
+        'General Purpose Unit',
+      ],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'How many hearts does an octopus have?',
+      options: ['1', '2', '3', '4'],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText: 'Name the largest planet in our solar system.',
+      options: ['Saturn', 'Earth', 'Jupiter', 'Neptune'],
+      correctIndex: 2,
+    ),
+    ////sec
     Question(
       questionText: 'What is the chemical symbol for gold?',
       options: ['Au', 'Ag', 'Gd', 'Go'],
@@ -4462,506 +4498,6 @@ final questionsByCategory = {
       correctIndex: 2,
     ),
     Question(
-      questionText: 'Which planet is often called the Morning Star?',
-      options: ['Mars', 'Venus', 'Mercury', 'Jupiter'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'What is the SI unit of force?',
-      options: ['Joule', 'Newton', 'Watt', 'Pascal'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Which scientist discovered the electron?',
-      options: [
-        'Ernest Rutherford',
-        'J.J. Thomson',
-        'Niels Bohr',
-        'Marie Curie',
-      ],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Name the element with the symbol “Fe”.',
-      options: ['Fluorine', 'Francium', 'Iron', 'Fermium'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText:
-          'Which device converts chemical energy into electrical energy?',
-      options: ['Battery', 'Generator', 'Motor', 'Transformer'],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'What is the speed of sound in air approximately?',
-      options: ['343 m/s', '300 m/s', '400 m/s', '350 m/s'],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'How many moons does Mars have?',
-      options: ['1', '2', '3', '4'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'In computing, what does URL stand for?',
-      options: [
-        'Universal Resource Locator',
-        'Uniform Resource Locator',
-        'Unique Resource Link',
-        'Universal Reference Link',
-      ],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Which organ is responsible for filtering blood in humans?',
-      options: ['Liver', 'Kidney', 'Spleen', 'Heart'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'What is the chemical formula for table salt?',
-      options: ['NaCl', 'KCl', 'NaOH', 'CaCl2'],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText:
-          'Name the phenomenon where light bends passing from one medium to another.',
-      options: ['Reflection', 'Diffraction', 'Refraction', 'Dispersion'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Which planet has a day longer than its year?',
-      options: ['Venus', 'Mercury', 'Earth', 'Mars'],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'How many bones form the human spine?',
-      options: ['24', '26', '33', '30'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText:
-          'Which programming language is primarily used for iOS app development?',
-      options: ['Java', 'Swift', 'Kotlin', 'C#'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'In which layer of the atmosphere does most weather occur?',
-      options: ['Stratosphere', 'Mesosphere', 'Troposphere', 'Thermosphere'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Which planet has the largest volcano in the solar system?',
-      options: ['Mars', 'Venus', 'Jupiter', 'Saturn'],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'What is the chemical symbol for silver?',
-      options: ['Si', 'Ag', 'Al', 'Au'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Who invented the first practical telephone?',
-      options: [
-        'Alexander Graham Bell',
-        'Thomas Edison',
-        'Nikola Tesla',
-        'Guglielmo Marconi',
-      ],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText:
-          'In what form does water exist at 0°C under normal pressure?',
-      options: ['Ice', 'Steam', 'Liquid', 'Vapor'],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'What is the powerhouse of the cell?',
-      options: ['Ribosome', 'Nucleus', 'Endoplasmic Reticulum', 'Mitochondria'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'Which gas is essential for photosynthesis?',
-      options: ['Oxygen', 'Carbon Dioxide', 'Nitrogen', 'Hydrogen'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'What does GPU stand for in computing?',
-      options: [
-        'Graphical Processing Unit',
-        'General Processing Unit',
-        'Graphic Performance Utility',
-        'General Purpose Unit',
-      ],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'How many hearts does an octopus have?',
-      options: ['1', '2', '3', '4'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Name the largest planet in our solar system.',
-      options: ['Saturn', 'Earth', 'Jupiter', 'Neptune'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText:
-          'Which scientist is known for the law of universal gravitation?',
-      options: [
-        'Albert Einstein',
-        'Galileo Galilei',
-        'Isaac Newton',
-        'Johannes Kepler',
-      ],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'What type of energy does a moving object have?',
-      options: ['Potential', 'Kinetic', 'Thermal', 'Chemical'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Which device is used to measure temperature?',
-      options: ['Barometer', 'Thermometer', 'Hygrometer', 'Anemometer'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'What is the basic unit of life?',
-      options: ['Atom', 'Molecule', 'Cell', 'Organ'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Who is the father of modern physics?',
-      options: [
-        'Isaac Newton',
-        'Albert Einstein',
-        'Galileo Galilei',
-        'Niels Bohr',
-      ],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'What is the main gas in Earth’s atmosphere?',
-      options: ['Oxygen', 'Nitrogen', 'Carbon Dioxide', 'Argon'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Which element is represented by the symbol "K"?',
-      options: ['Potassium', 'Krypton', 'Kobalt', 'Kalium'],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'What is the nearest star to Earth?',
-      options: ['Sirius', 'Alpha Centauri', 'The Sun', 'Proxima Centauri'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'In which organ is bile produced?',
-      options: ['Pancreas', 'Gallbladder', 'Liver', 'Kidney'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'How many planets in the solar system have rings?',
-      options: ['1', '2', '3', '4'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'Which device converts sound into electrical signals?',
-      options: ['Speaker', 'Microphone', 'Transistor', 'Amplifier'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Name the branch of science that studies earthquakes.',
-      options: ['Meteorology', 'Seismology', 'Geology', 'Volcanology'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText:
-          'Which planet is famous for its tilted axis causing extreme seasons?',
-      options: ['Earth', 'Mars', 'Uranus', 'Venus'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'What is the chemical formula for ammonia?',
-      options: ['NH3', 'H2O', 'CH4', 'NO2'],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'Who developed the polio vaccine?',
-      options: [
-        'Louis Pasteur',
-        'Alexander Fleming',
-        'Jonas Salk',
-        'Robert Koch',
-      ],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'What is the SI unit of pressure?',
-      options: ['Pascal', 'Newton', 'Joule', 'Watt'],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText:
-          'Which gas is used to inflate balloons and airships safely?',
-      options: ['Hydrogen', 'Helium', 'Oxygen', 'Nitrogen'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText:
-          'What type of electromagnetic wave is used in microwave ovens?',
-      options: ['Infrared', 'Microwave', 'X-ray', 'Ultraviolet'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'How many teeth does an adult human normally have?',
-      options: ['28', '30', '32', '34'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'In computing, what does HTTP stand for?',
-      options: [
-        'Hyper Text Transfer Protocol',
-        'Hyper Transfer Text Protocol',
-        'High Transfer Text Protocol',
-        'Hyperlink Transfer Text Process',
-      ],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'Which planet is known as the Evening Star?',
-      options: ['Mercury', 'Venus', 'Mars', 'Jupiter'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText:
-          'Name the process in which a solid changes directly to a gas.',
-      options: ['Condensation', 'Sublimation', 'Evaporation', 'Freezing'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Which planet is closest to the Sun?',
-      options: ['Venus', 'Mars', 'Mercury', 'Earth'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'What is the chemical symbol for gold?',
-      options: ['Ag', 'Au', 'Pb', 'Pt'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Who developed the theory of relativity?',
-      options: [
-        'Isaac Newton',
-        'Galileo Galilei',
-        'Nikola Tesla',
-        'Albert Einstein',
-      ],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'What is the largest organ in the human body?',
-      options: ['Heart', 'Liver', 'Skin', 'Lungs'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Which particle carries a negative electric charge?',
-      options: ['Proton', 'Neutron', 'Electron', 'Photon'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'How many bones are there in the human adult body?',
-      options: ['206', '208', '210', '212'],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'Name the first artificial Earth satellite.',
-      options: ['Voyager 1', 'Sputnik 1', 'Apollo 11', 'Hubble Telescope'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Which organ is responsible for producing insulin?',
-      options: ['Liver', 'Kidney', 'Pancreas', 'Spleen'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'What is the speed of light in vacuum?',
-      options: ['300,000 km/s', '150,000 km/s', '299,792 km/s', '310,000 km/s'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Which gas do plants absorb for photosynthesis?',
-      options: ['Oxygen', 'Carbon Dioxide', 'Nitrogen', 'Hydrogen'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'What type of lens is used to correct nearsightedness?',
-      options: ['Convex', 'Concave', 'Bifocal', 'Plano'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'In which organelle does protein synthesis occur?',
-      options: ['Mitochondria', 'Nucleus', 'Ribosome', 'Golgi Apparatus'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'How many degrees are in a circle?',
-      options: ['180', '360', '90', '270'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Which planet is known for its Great Red Spot?',
-      options: ['Mars', 'Jupiter', 'Saturn', 'Neptune'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Name the smallest unit of an element.',
-      options: ['Atom', 'Molecule', 'Cell', 'Electron'],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'Who invented the first practical telephone?',
-      options: [
-        'Alexander Graham Bell',
-        'Thomas Edison',
-        'Nikola Tesla',
-        'Guglielmo Marconi',
-      ],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'Which device is used to measure atmospheric pressure?',
-      options: ['Thermometer', 'Barometer', 'Hygrometer', 'Anemometer'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'How many moons does Saturn have?',
-      options: ['62', '69', '82', '79'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'What is the chemical formula for water?',
-      options: ['H2O2', 'H2O', 'HO2', 'H3O'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Which gas is lighter than air and non-flammable?',
-      options: ['Hydrogen', 'Oxygen', 'Nitrogen', 'Helium'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'What type of energy is stored in a stretched spring?',
-      options: ['Kinetic', 'Thermal', 'Elastic Potential', 'Chemical'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'In computing, what does CPU stand for?',
-      options: [
-        'Central Processing Unit',
-        'Computer Power Unit',
-        'Central Performance Unit',
-        'Computer Processing Utility',
-      ],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'Which scientist discovered penicillin?',
-      options: [
-        'Marie Curie',
-        'Alexander Fleming',
-        'Louis Pasteur',
-        'Robert Koch',
-      ],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'How many chromosomes do humans have?',
-      options: ['44', '46', '48', '42'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'What is the primary component of natural gas?',
-      options: ['Methane', 'Propane', 'Butane', 'Ethane'],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'Which planet rotates on its side?',
-      options: ['Uranus', 'Venus', 'Neptune', 'Mars'],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'In electricity, what does AC stand for?',
-      options: [
-        'Alternating Current',
-        'Active Charge',
-        'Applied Current',
-        'Accumulated Charge',
-      ],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'Which element has the atomic number 6?',
-      options: ['Oxygen', 'Carbon', 'Nitrogen', 'Helium'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Name the galaxy that contains our Solar System.',
-      options: ['Andromeda', 'Milky Way', 'Triangulum', 'Messier 87'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'What is the main function of white blood cells?',
-      options: [
-        'Transport oxygen',
-        'Fight infections',
-        'Store nutrients',
-        'Regulate hormones',
-      ],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Which metal is liquid at room temperature?',
-      options: ['Gold', 'Mercury', 'Silver', 'Copper'],
-      correctIndex: 1,
-    ), //
-    Question(
-      questionText: 'Which planet has the most moons?',
-      options: ['Mars', 'Jupiter', 'Saturn', 'Uranus'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'What is the chemical symbol for potassium?',
-      options: ['P', 'K', 'Po', 'Pt'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Who is known as the father of modern chemistry?',
-      options: [
-        'Dmitri Mendeleev',
-        'Antoine Lavoisier',
-        'Robert Boyle',
-        'John Dalton',
-      ],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText:
-          'Which device converts electrical energy into mechanical energy?',
-      options: ['Generator', 'Battery', 'Motor', 'Transformer'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'How many pairs of chromosomes do humans have?',
-      options: ['22', '23', '24', '21'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Which planet is called the Morning Star?',
-      options: ['Mercury', 'Mars', 'Venus', 'Jupiter'],
-      correctIndex: 2,
-    ),
-    Question(
       questionText: 'In computing, what does RAM stand for?',
       options: [
         'Read Access Memory',
@@ -5007,11 +4543,6 @@ final questionsByCategory = {
           'Which planet is known for its strong winds and blue color?',
       options: ['Neptune', 'Jupiter', 'Uranus', 'Saturn'],
       correctIndex: 0,
-    ),
-    Question(
-      questionText: 'What is the main gas found in the Earth’s atmosphere?',
-      options: ['Oxygen', 'Nitrogen', 'Carbon Dioxide', 'Argon'],
-      correctIndex: 1,
     ),
     Question(
       questionText: 'How many electrons does a neutral oxygen atom have?',
@@ -5109,7 +4640,7 @@ final questionsByCategory = {
         'Graph Performance Unit',
       ],
       correctIndex: 1,
-    ), // ... more Science & Tech questions
+    ),
   ],
 
   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -5203,11 +4734,6 @@ final questionsByCategory = {
       correctIndex: 0,
     ),
     Question(
-      questionText: 'What is the main gas found in the Earth’s atmosphere?',
-      options: ['Oxygen', 'Nitrogen', 'Carbon Dioxide', 'Argon'],
-      correctIndex: 1,
-    ),
-    Question(
       questionText: 'How many electrons does a neutral oxygen atom have?',
       options: ['6', '7', '8', '9'],
       correctIndex: 2,
@@ -5247,62 +4773,281 @@ final questionsByCategory = {
       options: ['Helium', 'Neon', 'Argon', 'Krypton'],
       correctIndex: 1,
     ),
+    /////fist
     Question(
-      questionText: 'Name the part of the brain responsible for balance.',
-      options: ['Cerebrum', 'Cerebellum', 'Medulla', 'Hypothalamus'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'How many continents are there on Earth?',
-      options: ['5', '6', '7', '8'],
+      questionText: 'Which country won the 2019 Cricket World Cup?',
+      options: ['Australia', 'India', 'England', 'New Zealand'],
       correctIndex: 2,
     ),
     Question(
-      questionText: 'Which planet is tilted almost on its side?',
-      options: ['Uranus', 'Neptune', 'Mars', 'Jupiter'],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'Which element has the highest melting point?',
-      options: ['Tungsten', 'Gold', 'Iron', 'Platinum'],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'What is the most abundant element in the universe?',
-      options: ['Helium', 'Hydrogen', 'Oxygen', 'Carbon'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText:
-          'Which organ in the human body detoxifies chemicals and metabolizes drugs?',
-      options: ['Kidney', 'Liver', 'Pancreas', 'Spleen'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Which type of energy is stored in food?',
-      options: ['Kinetic', 'Chemical', 'Potential', 'Thermal'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText:
-          'Name the gas that makes up about 21% of Earth’s atmosphere.',
-      options: ['Oxygen', 'Nitrogen', 'Carbon Dioxide', 'Argon'],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'Which planet is called the Ice Giant?',
-      options: ['Uranus', 'Neptune', 'Saturn', 'Jupiter'],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'In computing, what does GPU stand for?',
+      questionText: 'Who has won the most Grand Slam titles in men’s tennis?',
       options: [
-        'General Purpose Unit',
-        'Graphics Processing Unit',
-        'Global Processing Unit',
-        'Graph Performance Unit',
+        'Rafael Nadal',
+        'Roger Federer',
+        'Novak Djokovic',
+        'Pete Sampras',
+      ],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText: 'How many players are on a standard ice hockey team?',
+      options: ['5', '6', '7', '11'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Which city hosted the 2016 Summer Olympics?',
+      options: ['London', 'Beijing', 'Rio de Janeiro', 'Tokyo'],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText: 'What is the maximum break in snooker?',
+      options: ['147', '155', '150', '160'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'Who is known as “The King of Football”?',
+      options: ['Cristiano Ronaldo', 'Diego Maradona', 'Lionel Messi', 'Pele'],
+      correctIndex: 3,
+    ),
+    Question(
+      questionText: 'Which country won the 2022 FIFA World Cup?',
+      options: ['Brazil', 'Argentina', 'France', 'Germany'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'How long is an Olympic swimming pool?',
+      options: ['25m', '50m', '100m', '75m'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Which player scored the “Hand of God” goal in 1986?',
+      options: ['Pele', 'Zinedine Zidane', 'Lionel Messi', 'Diego Maradona'],
+      correctIndex: 3,
+    ),
+    Question(
+      questionText: 'In which sport is a “double fault” committed?',
+      options: ['Badminton', 'Tennis', 'Table Tennis', 'Volleyball'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText:
+          'How many minutes are in a standard professional basketball game?',
+      options: ['40', '48', '45', '50'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Which country hosts the Wimbledon Championships?',
+      options: ['USA', 'France', 'UK', 'Australia'],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText: 'Name the athlete who holds the 100m world record.',
+      options: ['Justin Gatlin', 'Yohan Blake', 'Usain Bolt', 'Tyson Gay'],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText:
+          'Which country has won the most Olympic gold medals in basketball?',
+      options: ['USA', 'Spain', 'Argentina', 'Russia'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'Who won the FIFA Ballon d’Or in 2021?',
+      options: [
+        'Cristiano Ronaldo',
+        'Robert Lewandowski',
+        'Lionel Messi',
+        'Neymar',
+      ],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText: 'How many bases are there in baseball?',
+      options: ['3', '4', '5', '6'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Which country has hosted the most Formula 1 races?',
+      options: ['Italy', 'Monaco', 'UK', 'Germany'],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText: 'Who is the most decorated Olympian of all time?',
+      options: ['Carl Lewis', 'Mark Spitz', 'Ryan Lochte', 'Michael Phelps'],
+      correctIndex: 3,
+    ),
+    Question(
+      questionText: 'Which sport uses the terms “bogey” and “eagle”?',
+      options: ['Tennis', 'Golf', 'Cricket', 'Football'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Who won the NBA championship in 2020?',
+      options: [
+        'Miami Heat',
+        'Los Angeles Lakers',
+        'Golden State Warriors',
+        'Toronto Raptors',
       ],
       correctIndex: 1,
+    ),
+    Question(
+      questionText:
+          'Which country has the most World Series titles in baseball?',
+      options: ['USA', 'Canada', 'Mexico', 'Cuba'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText:
+          'Name the first female gymnast to score a perfect 10 in the Olympics.',
+      options: [
+        'Nadia Comaneci',
+        'Mary Lou Retton',
+        'Simone Biles',
+        'Shannon Miller',
+      ],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'Which country won the first Cricket World Cup in 1975?',
+      options: ['Australia', 'India', 'West Indies', 'England'],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText: 'How many rings are on the Olympic flag?',
+      options: ['4', '5', '6', '7'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Which football player is known as “CR7”?',
+      options: ['Lionel Messi', 'Neymar', 'Kylian Mbappe', 'Cristiano Ronaldo'],
+      correctIndex: 3,
+    ),
+    Question(
+      questionText: 'Which country won the UEFA Euro 2020 tournament?',
+      options: ['Italy', 'England', 'Germany', 'France'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'How many players are on a standard rugby union team?',
+      options: ['11', '13', '14', '15'],
+      correctIndex: 3,
+    ),
+    Question(
+      questionText: 'Who has won the most Formula 1 World Championships?',
+      options: [
+        'Lewis Hamilton',
+        'Sebastian Vettel',
+        'Michael Schumacher',
+        'Ayrton Senna',
+      ],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText:
+          'Which country won the 2018 Winter Olympics ice hockey gold medal?',
+      options: ['USA', 'Canada', 'Russia', 'Germany'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Which country hosted the 2008 Summer Olympics?',
+      options: ['Greece', 'UK', 'USA', 'China'],
+      correctIndex: 3,
+    ),
+    Question(
+      questionText: 'Who won the FIFA Ballon d’Or in 2019?',
+      options: [
+        'Lionel Messi',
+        'Cristiano Ronaldo',
+        'Luka Modric',
+        'Virgil van Dijk',
+      ],
+      correctIndex: 3,
+    ),
+    Question(
+      questionText: 'In which sport is the Stanley Cup awarded?',
+      options: ['Basketball', 'Ice Hockey', 'Baseball', 'American Football'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText:
+          'How many minutes are in a standard professional rugby match?',
+      options: ['70', '80', '90', '85'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Which country won the 2015 Rugby World Cup?',
+      options: ['New Zealand', 'South Africa', 'Australia', 'England'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText:
+          'Who holds the record for the most home runs in MLB history?',
+      options: ['Barry Bonds', 'Babe Ruth', 'Hank Aaron', 'Alex Rodriguez'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText:
+          'Which country won the first FIFA Women’s World Cup in 1991?',
+      options: ['Norway', 'Germany', 'USA', 'China'],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText: 'How many players are on a cricket team on the field?',
+      options: ['9', '10', '11', '12'],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText: 'Which city hosted the 2010 FIFA World Cup?',
+      options: ['Johannesburg', 'Cape Town', 'Durban', 'Pretoria'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'Who is nicknamed “The Greatest” in boxing?',
+      options: [
+        'Mike Tyson',
+        'Muhammad Ali',
+        'Joe Frazier',
+        'Floyd Mayweather',
+      ],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText:
+          'Which country has won the most Olympic gold medals in gymnastics?',
+      options: ['USA', 'Russia', 'China', 'Romania'],
+      correctIndex: 0,
+    ),
+    Question(
+      questionText: 'How many periods are in an ice hockey game?',
+      options: ['2', '3', '4', '5'],
+      correctIndex: 1,
+    ),
+    Question(
+      questionText: 'Which country won the 2017 ICC Champions Trophy?',
+      options: ['India', 'Australia', 'Pakistan', 'England'],
+      correctIndex: 3,
+    ),
+    Question(
+      questionText: 'Who is the all-time leading scorer in NFL history?',
+      options: ['Tom Brady', 'Emmitt Smith', 'Adam Vinatieri', 'Drew Brees'],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText: 'Which sport is known as the “king of sports”?',
+      options: ['Basketball', 'Tennis', 'Soccer', 'Cricket'],
+      correctIndex: 2,
+    ),
+    Question(
+      questionText: 'Which country won the 2019 Rugby World Cup?',
+      options: ['New Zealand', 'England', 'South Africa', 'Australia'],
+      correctIndex: 2,
+    ),
+    /////sec
+    Question(
+      questionText: 'Which country won the FIFA World Cup in 2018?',
+      options: ['Germany', 'Brazil', 'France', 'Argentina'],
+      correctIndex: 2,
     ),
     Question(
       questionText: 'Which country won the 2019 Cricket World Cup?',
@@ -5574,12 +5319,6 @@ final questionsByCategory = {
       correctIndex: 2,
     ),
     Question(
-      questionText:
-          'How many players are in a standard volleyball team on court?',
-      options: ['5', '6', '7', '8'],
-      correctIndex: 1,
-    ),
-    Question(
       questionText: 'Which country won the 2019 Rugby World Cup?',
       options: ['New Zealand', 'England', 'South Africa', 'Australia'],
       correctIndex: 2,
@@ -5739,16 +5478,6 @@ final questionsByCategory = {
       correctIndex: 2,
     ),
     Question(
-      questionText: 'Who won the 2020 Tour de France?',
-      options: [
-        'Tadej Pogacar',
-        'Primoz Roglic',
-        'Geraint Thomas',
-        'Egan Bernal',
-      ],
-      correctIndex: 0,
-    ),
-    Question(
       questionText:
           'Which country has won the most Olympic medals in swimming?',
       options: ['Australia', 'Russia', 'USA', 'China'],
@@ -5802,12 +5531,6 @@ final questionsByCategory = {
       correctIndex: 2,
     ),
     Question(
-      questionText:
-          'Which country won the first FIFA Women’s World Cup in 1991?',
-      options: ['Germany', 'USA', 'Norway', 'China'],
-      correctIndex: 1,
-    ),
-    Question(
       questionText: 'Who won the 2019 Wimbledon men’s singles?',
       options: [
         'Roger Federer',
@@ -5824,51 +5547,9 @@ final questionsByCategory = {
       correctIndex: 3,
     ),
     Question(
-      questionText: 'How many periods are played in professional ice hockey?',
-      options: ['2', '3', '4', '5'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Which country won the 2017 FIFA Confederations Cup?',
-      options: ['Germany', 'Portugal', 'Chile', 'Brazil'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText:
-          'Who holds the record for most goals in a single NHL season?',
-      options: [
-        'Wayne Gretzky',
-        'Brett Hull',
-        'Mario Lemieux',
-        'Alexander Ovechkin',
-      ],
+      questionText: 'Who won the 2016 UEFA Champions League?',
+      options: ['Real Madrid', 'Atlético Madrid', 'Bayern Munich', 'Juventus'],
       correctIndex: 0,
-    ),
-    Question(
-      questionText: 'Which country hosted the 2006 FIFA World Cup?',
-      options: ['France', 'Germany', 'Italy', 'Brazil'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Who has won the most Wimbledon men’s singles titles?',
-      options: [
-        'Roger Federer',
-        'Pete Sampras',
-        'Novak Djokovic',
-        'Rafael Nadal',
-      ],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'Which country won the 2014 FIFA World Cup?',
-      options: ['Argentina', 'Brazil', 'Germany', 'Netherlands'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText:
-          'Which country won the gold medal in men’s basketball at the 2016 Olympics?',
-      options: ['Spain', 'USA', 'France', 'Serbia'],
-      correctIndex: 1,
     ),
     Question(
       questionText: 'Who won the 2018 NBA MVP award?',
@@ -5917,12 +5598,6 @@ final questionsByCategory = {
       correctIndex: 0,
     ),
     Question(
-      questionText:
-          'Which country has won the most Olympic gold medals in gymnastics?',
-      options: ['USA', 'Russia', 'China', 'Romania'],
-      correctIndex: 0,
-    ),
-    Question(
       questionText: 'Who won the 2018 FIFA World Cup Golden Ball?',
       options: [
         'Luka Modric',
@@ -5938,14 +5613,13 @@ final questionsByCategory = {
       correctIndex: 2,
     ),
     Question(
-      questionText:
-          'How many sets are in a standard men’s singles Grand Slam tennis match?',
-      options: ['3', '4', '5', '6'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Who won the 2016 UEFA Champions League?',
-      options: ['Real Madrid', 'Atlético Madrid', 'Bayern Munich', 'Juventus'],
+      questionText: 'Who won the 2020 Tour de France?',
+      options: [
+        'Tadej Pogacar',
+        'Primoz Roglic',
+        'Geraint Thomas',
+        'Egan Bernal',
+      ],
       correctIndex: 0,
     ),
     Question(
@@ -6150,19 +5824,9 @@ final questionsByCategory = {
       correctIndex: 2,
     ),
     Question(
-      questionText: 'Who won the 2018 FIFA World Cup?',
-      options: ['Germany', 'Croatia', 'Belgium', 'France'],
-      correctIndex: 3,
-    ),
-    Question(
       questionText: 'Which country won the 2012 Rugby League World Cup?',
       options: ['Australia', 'New Zealand', 'England', 'France'],
       correctIndex: 0,
-    ),
-    Question(
-      questionText: 'Who won the 2017 ICC Champions Trophy?',
-      options: ['India', 'Pakistan', 'Australia', 'England'],
-      correctIndex: 3,
     ),
     Question(
       questionText: 'How many players are on an ice hockey team on the ice?',
@@ -6173,51 +5837,6 @@ final questionsByCategory = {
       questionText:
           'Which country won the 2000 Summer Olympics gold in men’s soccer?',
       options: ['Cameroon', 'Spain', 'Argentina', 'Nigeria'],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'Who won the 2020 US Open men’s singles?',
-      options: [
-        'Daniil Medvedev',
-        'Novak Djokovic',
-        'Dominic Thiem',
-        'Alexander Zverev',
-      ],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'Which country hosted the 2014 FIFA World Cup?',
-      options: ['Germany', 'Brazil', 'South Africa', 'Argentina'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Who holds the record for most points in NBA history?',
-      options: ['Kobe Bryant', 'LeBron James', 'Karl Malone', 'Michael Jordan'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Which country won the 2013 Rugby League World Cup?',
-      options: ['New Zealand', 'Australia', 'England', 'France'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'How many players are on a standard rugby union team?',
-      options: ['13', '14', '15', '16'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Who won the 2016 Wimbledon women’s singles?',
-      options: [
-        'Serena Williams',
-        'Angelique Kerber',
-        'Garbine Muguruza',
-        'Venus Williams',
-      ],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Which country won the 2011 Cricket World Cup?',
-      options: ['India', 'Australia', 'Pakistan', 'Sri Lanka'],
       correctIndex: 0,
     ),
     Question(
@@ -6232,14 +5851,14 @@ final questionsByCategory = {
       correctIndex: 0,
     ),
     Question(
-      questionText: 'Who won the 2021 Tour de France?',
+      questionText: 'Who won the 2016 Wimbledon women’s singles?',
       options: [
-        'Egan Bernal',
-        'Primoz Roglic',
-        'Geraint Thomas',
-        'Tadej Pogacar',
+        'Serena Williams',
+        'Angelique Kerber',
+        'Garbine Muguruza',
+        'Venus Williams',
       ],
-      correctIndex: 3,
+      correctIndex: 1,
     ),
     Question(
       questionText: 'Which country has won the most Rugby World Cups?',
@@ -6272,7 +5891,6 @@ final questionsByCategory = {
       options: ['Spain', 'USA', 'Argentina', 'Lithuania'],
       correctIndex: 1,
     ),
-    // ... more Sports questions
   ],
 
   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -6424,7 +6042,7 @@ final questionsByCategory = {
       correctIndex: 3,
     ),
     Question(
-      questionText: 'Identify the largest mammal on Earth.',
+      questionText: 'Choose the largest mammal on Earth.',
       options: ['Elephant', 'Giraffe', 'Hippopotamus', 'Blue Whale'],
       correctIndex: 3,
     ),
@@ -6607,20 +6225,11 @@ final questionsByCategory = {
       correctIndex: 1,
     ),
     Question(
-      questionText: 'What is the tallest building in the world (as of 2023)?',
-      options: [
-        'Shanghai Tower',
-        'One World Trade Center',
-        'Burj Khalifa',
-        'Petronas Towers',
-      ],
-      correctIndex: 2,
-    ),
-    Question(
       questionText: 'In what language is the Quran written?',
       options: ['Hebrew', 'Greek', 'Latin', 'Arabic'],
       correctIndex: 3,
     ),
+    /////first
     Question(
       questionText: 'Name the gas that plants release during photosynthesis.',
       options: ['Carbon Dioxide', 'Oxygen', 'Nitrogen', 'Hydrogen'],
@@ -6652,16 +6261,6 @@ final questionsByCategory = {
       correctIndex: 1,
     ),
     Question(
-      questionText: 'Who painted the Mona Lisa?',
-      options: [
-        'Pablo Picasso',
-        'Leonardo da Vinci',
-        'Michelangelo',
-        'Raphael',
-      ],
-      correctIndex: 1,
-    ),
-    Question(
       questionText: 'How many planets are in our solar system?',
       options: ['7', '8', '9', '10'],
       correctIndex: 1,
@@ -6677,11 +6276,6 @@ final questionsByCategory = {
       correctIndex: 0,
     ),
     Question(
-      questionText: 'In what year did World War II end?',
-      options: ['1943', '1944', '1945', '1946'],
-      correctIndex: 2,
-    ),
-    Question(
       questionText: 'Who is known as the father of modern physics?',
       options: [
         'Isaac Newton',
@@ -6689,16 +6283,6 @@ final questionsByCategory = {
         'Niels Bohr',
         'Galileo Galilei',
       ],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'What is the national sport of Japan?',
-      options: ['Karate', 'Baseball', 'Sumo Wrestling', 'Judo'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Name the largest planet in our solar system.',
-      options: ['Saturn', 'Jupiter', 'Neptune', 'Uranus'],
       correctIndex: 1,
     ),
     Question(
@@ -6727,16 +6311,6 @@ final questionsByCategory = {
       correctIndex: 1,
     ),
     Question(
-      questionText: 'Who invented the telephone?',
-      options: [
-        'Thomas Edison',
-        'Alexander Graham Bell',
-        'Nikola Tesla',
-        'Guglielmo Marconi',
-      ],
-      correctIndex: 1,
-    ),
-    Question(
       questionText: 'What is the national animal of Australia?',
       options: ['Kangaroo', 'Koala', 'Emu', 'Dingo'],
       correctIndex: 0,
@@ -6757,38 +6331,8 @@ final questionsByCategory = {
       correctIndex: 1,
     ),
     Question(
-      questionText: 'Name the river that flows through Egypt.',
-      options: ['Amazon', 'Yangtze', 'Nile', 'Congo'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'What is the hardest natural substance on Earth?',
-      options: ['Steel', 'Gold', 'Diamond', 'Quartz'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Who was the first woman to win a Nobel Prize?',
-      options: [
-        'Rosalind Franklin',
-        'Marie Curie',
-        'Ada Lovelace',
-        'Dorothy Hodgkin',
-      ],
-      correctIndex: 1,
-    ),
-    Question(
       questionText: 'How many strings does a standard guitar have?',
       options: ['4', '5', '6', '7'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'What is the capital of Canada?',
-      options: ['Toronto', 'Ottawa', 'Vancouver', 'Montreal'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'In what year was the Declaration of Independence signed?',
-      options: ['1774', '1775', '1776', '1777'],
       correctIndex: 2,
     ),
     Question(
@@ -6817,19 +6361,9 @@ final questionsByCategory = {
       correctIndex: 2,
     ),
     Question(
-      questionText: 'What is the fastest land animal?',
-      options: ['Lion', 'Cheetah', 'Leopard', 'Tiger'],
-      correctIndex: 1,
-    ),
-    Question(
       questionText: 'Name the Greek god of the sea.',
       options: ['Zeus', 'Hades', 'Poseidon', 'Apollo'],
       correctIndex: 2,
-    ),
-    Question(
-      questionText: 'What is the largest mammal on Earth?',
-      options: ['Elephant', 'Hippopotamus', 'Giraffe', 'Blue Whale'],
-      correctIndex: 3,
     ),
     Question(
       questionText: 'Who discovered penicillin in 1928?',
@@ -6842,34 +6376,9 @@ final questionsByCategory = {
       correctIndex: 1,
     ),
     Question(
-      questionText: 'Name the capital city of Australia.',
-      options: ['Sydney', 'Melbourne', 'Perth', 'Canberra'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'When did the Titanic sink?',
-      options: ['1910', '1911', '1912', '1913'],
-      correctIndex: 2,
-    ),
-    Question(
       questionText: 'Where is the Great Barrier Reef located?',
       options: ['Philippines', 'Fiji', 'Indonesia', 'Australia'],
       correctIndex: 3,
-    ),
-    Question(
-      questionText: 'What is the chemical symbol for gold?',
-      options: ['Ag', 'Au', 'Gd', 'Go'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Who was the first President of the United States?',
-      options: [
-        'George Washington',
-        'Abraham Lincoln',
-        'Thomas Jefferson',
-        'John Adams',
-      ],
-      correctIndex: 0,
     ),
     Question(
       questionText: 'How many bones are in the adult human body?',
@@ -6879,16 +6388,6 @@ final questionsByCategory = {
     Question(
       questionText: 'In which city can you find the Colosseum?',
       options: ['Athens', 'Istanbul', 'Florence', 'Rome'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'Who developed the theory of relativity?',
-      options: [
-        'Isaac Newton',
-        'Galileo Galilei',
-        'Nikola Tesla',
-        'Albert Einstein',
-      ],
       correctIndex: 3,
     ),
     Question(
@@ -6913,40 +6412,9 @@ final questionsByCategory = {
       correctIndex: 3,
     ),
     Question(
-      questionText: 'Who painted the ceiling of the Sistine Chapel?',
-      options: ['Leonardo da Vinci', 'Raphael', 'Donatello', 'Michelangelo'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText:
-          'How many players are there in a football (soccer) team on the field?',
-      options: ['9', '10', '11', '12'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'What gas do humans exhale when they breathe out?',
-      options: ['Oxygen', 'Hydrogen', 'Nitrogen', 'Carbon Dioxide'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'Who was the first man to step on the Moon?',
-      options: [
-        'Buzz Aldrin',
-        'Yuri Gagarin',
-        'Michael Collins',
-        'Neil Armstrong',
-      ],
-      correctIndex: 3,
-    ),
-    Question(
       questionText: 'What is the capital city of Russia?',
       options: ['St. Petersburg', 'Kazan', 'Sochi', 'Moscow'],
       correctIndex: 3,
-    ),
-    Question(
-      questionText: 'When was the Declaration of Independence signed?',
-      options: ['1774', '1775', '1776', '1777'],
-      correctIndex: 2,
     ),
     Question(
       questionText: 'What is the primary language spoken in Brazil?',
@@ -7044,11 +6512,6 @@ final questionsByCategory = {
       correctIndex: 1,
     ),
     Question(
-      questionText: 'How many strings does a standard guitar have?',
-      options: ['4', '6', '7', '8'],
-      correctIndex: 1,
-    ),
-    Question(
       questionText: 'In Greek mythology, who is the king of the gods?',
       options: ['Poseidon', 'Hades', 'Apollo', 'Zeus'],
       correctIndex: 3,
@@ -7067,16 +6530,6 @@ final questionsByCategory = {
       questionText: 'When did World War I begin?',
       options: ['1912', '1913', '1914', '1915'],
       correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Identify the largest desert in the world.',
-      options: [
-        'Gobi Desert',
-        'Kalahari Desert',
-        'Arctic Desert',
-        'Sahara Desert',
-      ],
-      correctIndex: 3,
     ),
     Question(
       questionText:
@@ -7099,11 +6552,6 @@ final questionsByCategory = {
       questionText: 'In which year did the Apollo 11 mission land on the Moon?',
       options: ['1967', '1968', '1969', '1970'],
       correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Who painted the Mona Lisa?',
-      options: ['Michelangelo', 'Raphael', 'Donatello', 'Leonardo da Vinci'],
-      correctIndex: 3,
     ),
     Question(
       questionText: 'When was the first iPhone released?',
@@ -7142,47 +6590,6 @@ final questionsByCategory = {
       correctIndex: 2,
     ),
     Question(
-      questionText: 'Who discovered penicillin in 1928?',
-      options: [
-        'Marie Curie',
-        'Alexander Fleming',
-        'Joseph Lister',
-        'Louis Pasteur',
-      ],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'When did the Titanic sink?',
-      options: ['1910', '1911', '1912', '1913'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Name the currency used in Japan.',
-      options: ['Won', 'Dollar', 'Peso', 'Yen'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'How many bones are there in the adult human body?',
-      options: ['202', '204', '206', '208'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText:
-          'Who was the first African-American President of the United States?',
-      options: [
-        'Colin Powell',
-        'Barack Obama',
-        'Jesse Jackson',
-        'Martin Luther King Jr.',
-      ],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'In which year did the Berlin Wall get constructed?',
-      options: ['1959', '1960', '1961', '1962'],
-      correctIndex: 2,
-    ),
-    Question(
       questionText:
           'Identify the gas that plants absorb during photosynthesis.',
       options: ['Oxygen', 'Nitrogen', 'Hydrogen', 'Carbon Dioxide'],
@@ -7209,17 +6616,6 @@ final questionsByCategory = {
       correctIndex: 2,
     ),
     Question(
-      questionText:
-          'Name the scientist who developed the theory of relativity.',
-      options: [
-        'Isaac Newton',
-        'Albert Einstein',
-        'Galileo Galilei',
-        'Nikola Tesla',
-      ],
-      correctIndex: 1,
-    ),
-    Question(
       questionText: 'Who was known as the “Iron Lady”?',
       options: [
         'Angela Merkel',
@@ -7228,11 +6624,6 @@ final questionsByCategory = {
         'Margaret Thatcher',
       ],
       correctIndex: 3,
-    ),
-    Question(
-      questionText: 'When did World War II end?',
-      options: ['1943', '1944', '1945', '1946'],
-      correctIndex: 2,
     ),
     Question(
       questionText: 'In which city is the Taj Mahal located?',
@@ -7253,16 +6644,6 @@ final questionsByCategory = {
         'F. Scott Fitzgerald',
       ],
       correctIndex: 0,
-    ),
-    Question(
-      questionText: 'Identify the largest mammal on Earth.',
-      options: ['Elephant', 'Giraffe', 'Hippopotamus', 'Blue Whale'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'When was the Declaration of Independence signed?',
-      options: ['1774', '1775', '1776', '1777'],
-      correctIndex: 2,
     ),
     Question(
       questionText: 'Who painted “The Starry Night”?',
@@ -7290,11 +6671,6 @@ final questionsByCategory = {
       correctIndex: 2,
     ),
     Question(
-      questionText: 'When was the United Nations founded?',
-      options: ['1943', '1944', '1945', '1946'],
-      correctIndex: 2,
-    ),
-    Question(
       questionText: 'Name the Greek god of the sea.',
       options: ['Zeus', 'Hades', 'Apollo', 'Poseidon'],
       correctIndex: 3,
@@ -7306,34 +6682,9 @@ final questionsByCategory = {
       correctIndex: 2,
     ),
     Question(
-      questionText: 'Identify the chemical element with the symbol O.',
-      options: ['Gold', 'Oxygen', 'Osmium', 'Oxide'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'Who invented the telephone?',
-      options: [
-        'Thomas Edison',
-        'Nikola Tesla',
-        'Guglielmo Marconi',
-        'Alexander Graham Bell',
-      ],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'In which year did the Berlin Wall fall?',
-      options: ['1987', '1988', '1989', '1990'],
-      correctIndex: 2,
-    ),
-    Question(
       questionText: 'How many hearts does an octopus have?',
       options: ['1', '2', '3', '4'],
       correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Name the world’s tallest mountain.',
-      options: ['K2', 'Kangchenjunga', 'Makalu', 'Mount Everest'],
-      correctIndex: 3,
     ),
     Question(
       questionText:
@@ -7354,11 +6705,6 @@ final questionsByCategory = {
     Question(
       questionText: 'When did the Cold War officially end?',
       options: ['1987', '1988', '1989', '1991'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'Identify the largest desert in the world.',
-      options: ['Gobi', 'Kalahari', 'Sahara', 'Antarctic Desert'],
       correctIndex: 3,
     ),
     Question(
@@ -7383,160 +6729,6 @@ final questionsByCategory = {
       correctIndex: 2,
     ),
     Question(
-      questionText: 'Name the author of the play “Macbeth”.',
-      options: [
-        'Christopher Marlowe',
-        'Charles Dickens',
-        'George Orwell',
-        'William Shakespeare',
-      ],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'Who painted the Mona Lisa?',
-      options: ['Michelangelo', 'Raphael', 'Donatello', 'Leonardo da Vinci'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText:
-          'In which continent is the Amazon Rainforest primarily located?',
-      options: ['Africa', 'Asia', 'Australia', 'South America'],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'When did the first World War begin?',
-      options: ['1912', '1913', '1914', '1915'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText:
-          'Who was the first African-American president of the United States?',
-      options: [
-        'Bill Clinton',
-        'George Bush',
-        'Abraham Lincoln',
-        'Barack Obama',
-      ],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'When did World War II end?',
-      options: ['1943', '1944', '1945', '1946'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Name the largest planet in our Solar System.',
-      options: ['Earth', 'Mars', 'Jupiter', 'Saturn'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText:
-          'How many players are on a soccer team on the field at once?',
-      options: ['9', '10', '11', '12'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'In which year did the Titanic sink?',
-      options: ['1910', '1911', '1912', '1913'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'By what process do plants make their own food?',
-      options: [
-        'Respiration',
-        'Fermentation',
-        'Transpiration',
-        'Photosynthesis',
-      ],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText: 'During which empire was the Colosseum in Rome built?',
-      options: [
-        'Greek Empire',
-        'Byzantine Empire',
-        'Roman Empire',
-        'Ottoman Empire',
-      ],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Who wrote the novel “1984”?',
-      options: [
-        'George Orwell',
-        'Aldous Huxley',
-        'Mark Twain',
-        'Ernest Hemingway',
-      ],
-      correctIndex: 0,
-    ),
-    Question(
-      questionText: 'At what temperature does water boil at sea level (°C)?',
-      options: ['80°C', '90°C', '100°C', '110°C'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Identify the inventor of the light bulb.',
-      options: [
-        'Alexander Graham Bell',
-        'Thomas Edison',
-        'Benjamin Franklin',
-        'Nikola Tesla',
-      ],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'When did humans first land on the Moon?',
-      options: ['1967', '1968', '1969', '1970'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Who painted the ceiling of the Sistine Chapel?',
-      options: ['Leonardo da Vinci', 'Michelangelo', 'Raphael', 'Donatello'],
-      correctIndex: 1,
-    ),
-    Question(
-      questionText: 'In which continent is Egypt located?',
-      options: ['Asia', 'Europe', 'Africa', 'South America'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'How many colors are in a traditional rainbow?',
-      options: ['5', '6', '7', '8'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Who was known as the “Maid of Orléans”?',
-      options: [
-        'Marie Curie',
-        'Queen Elizabeth I',
-        'Joan of Arc',
-        'Catherine the Great',
-      ],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'Name the largest ocean on Earth.',
-      options: [
-        'Atlantic Ocean',
-        'Indian Ocean',
-        'Arctic Ocean',
-        'Pacific Ocean',
-      ],
-      correctIndex: 3,
-    ),
-    Question(
-      questionText:
-          'When was the Declaration of Independence signed in the United States?',
-      options: ['1774', '1775', '1776', '1777'],
-      correctIndex: 2,
-    ),
-    Question(
-      questionText: 'By which organ is blood pumped throughout the human body?',
-      options: ['Liver', 'Lungs', 'Kidney', 'Heart'],
-      correctIndex: 3,
-    ),
-    Question(
       questionText: 'Who is often called the “Father of Computers”?',
       options: ['Alan Turing', 'Bill Gates', 'Steve Jobs', 'Charles Babbage'],
       correctIndex: 3,
@@ -7546,7 +6738,5 @@ final questionsByCategory = {
       options: ['16th century', '17th century', '18th century', '19th century'],
       correctIndex: 3,
     ),
-
-    // ... more Other questions
   ],
 };
