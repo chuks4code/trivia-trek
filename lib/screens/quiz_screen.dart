@@ -239,6 +239,7 @@ class _TriviaHomePageState extends ConsumerState<TriviaHomePage> {
     final question = questions[currentIndexMain];
     final optionLabels = ["A", "B", "C", "D"];
 
+    ////////////////////////////////////////////////////////// App UI starts here on this screen
     return Scaffold(
       //backgroundColor: Colors.grey[200],
       appBar: PreferredSize(
