@@ -74,11 +74,11 @@ class _TriviaHomePageState extends ConsumerState<TriviaHomePage> {
       return Scaffold(
         appBar: AppBar(
           automaticallyImplyLeading:
-          false, // No back button will appear even if you navigated from another page.
+              false, // No back button will appear even if you navigated from another page.
           title: Text('Trivia Trek'),
           centerTitle: true,
         ),
-        body: Center(
+        body: SingleChildScrollView(
           child: Column(
             children: [
               SizedBox(height: 20),
@@ -96,15 +96,25 @@ class _TriviaHomePageState extends ConsumerState<TriviaHomePage> {
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         SizedBox(height: 20),
-                        Text('Time is up!!!!',  style: AppStyles.tileText.copyWith(fontWeight: FontWeight.w900),),
+                        Text(
+                          'Time is up!!!!',
+                          style: AppStyles.tileText.copyWith(
+                            fontWeight: FontWeight.w900,
+                          ),
+                        ),
                         SizedBox(height: 20),
                         Text(
                           'Your Score:',
-                          style: AppStyles.tileText.copyWith(fontWeight: FontWeight.w900),
+                          style: AppStyles.tileText.copyWith(
+                            fontWeight: FontWeight.w900,
+                          ),
                         ),
                         Text(
-                           ' $score / ${answered.length}',
-                          style: AppStyles.tileText.copyWith(fontWeight: FontWeight.w900,fontSize: 50.0),
+                          ' $score / ${answered.length}',
+                          style: AppStyles.tileText.copyWith(
+                            fontWeight: FontWeight.w900,
+                            fontSize: 50.0,
+                          ),
                         ),
                         SizedBox(height: 10),
                       ],
@@ -125,34 +135,43 @@ class _TriviaHomePageState extends ConsumerState<TriviaHomePage> {
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-
-                       // SizedBox(height: 20),
+                        // SizedBox(height: 20),
                         ////////////////////////
                         ElevatedButton(
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.teal,
                             foregroundColor: Colors.white,
-                           // minimumSize: Size(double.infinity, 50),
+                            // minimumSize: Size(double.infinity, 50),
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(30),
                             ),
                           ),
                           onPressed: () {
-                            ref.invalidate(questionsProvider); //  forces re-shuffle
-                            ref.read(currentQuestionProvider.notifier).state = 0;
+                            ref.invalidate(
+                              questionsProvider,
+                            ); //  forces re-shuffle
+                            ref.read(currentQuestionProvider.notifier).state =
+                                0;
                             ref.read(scoreProvider.notifier).state = 0;
-                            ref.read(answerdQuestinsProvider.notifier).state = [];
+                            ref.read(answerdQuestinsProvider.notifier).state =
+                                [];
 
                             startTimer();
                           },
-                          child: Text('Restart Quiz' , style: AppStyles.tileText.copyWith( fontWeight: FontWeight.w800,color: Colors.white)),
+                          child: Text(
+                            'Restart Quiz',
+                            style: AppStyles.tileText.copyWith(
+                              fontWeight: FontWeight.w800,
+                              color: Colors.white,
+                            ),
+                          ),
                         ),
                         SizedBox(height: 10.0),
                         ElevatedButton(
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.teal,
                             foregroundColor: Colors.white,
-                           // minimumSize: Size(double.infinity, 50),
+                            // minimumSize: Size(double.infinity, 50),
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(30),
                             ),
@@ -160,22 +179,30 @@ class _TriviaHomePageState extends ConsumerState<TriviaHomePage> {
                           onPressed: () {
                             Navigator.pop(context);
 
-                            ref.read(currentQuestionProvider.notifier).state = 0;
+                            ref.read(currentQuestionProvider.notifier).state =
+                                0;
                             ref.read(scoreProvider.notifier).state = 0;
-                            ref.read(answerdQuestinsProvider.notifier).state = [];
+                            ref.read(answerdQuestinsProvider.notifier).state =
+                                [];
                             ref.read(selectedCategoryProvider.notifier).state =
                                 null;
                             startTimer();
                           },
-                          child: Text('Return to category', style: AppStyles.tileText.copyWith( fontWeight: FontWeight.w800,color: Colors.white)),
+                          child: Text(
+                            'Return to category',
+                            style: AppStyles.tileText.copyWith(
+                              fontWeight: FontWeight.w800,
+                              color: Colors.white,
+                            ),
+                          ),
                         ),
                         SizedBox(height: 40.0),
                         ElevatedButton(
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.teal,
                             foregroundColor: Colors.white,
-                           padding: EdgeInsets.all(18.0),
-                           // minimumSize: Size(double.infinity, 50),
+                            padding: EdgeInsets.all(18.0),
+                            // minimumSize: Size(double.infinity, 50),
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(30),
                             ),
@@ -190,7 +217,12 @@ class _TriviaHomePageState extends ConsumerState<TriviaHomePage> {
                           },
                           child: Text(
                             "See Your\nAnswer(s) Review",
-                            textAlign: TextAlign.center, style: AppStyles.tileText.copyWith( fontWeight: FontWeight.w800,height: 1.0, color: Colors.white),
+                            textAlign: TextAlign.center,
+                            style: AppStyles.tileText.copyWith(
+                              fontWeight: FontWeight.w800,
+                              height: 1.0,
+                              color: Colors.white,
+                            ),
                           ),
                         ),
                       ],
@@ -223,10 +255,7 @@ class _TriviaHomePageState extends ConsumerState<TriviaHomePage> {
                 children: [
                   // Icon(Icons.help_outline, color: Colors.teal),
                   SizedBox(width: 6),
-                  Text(
-                    "Trivia Trek",
-
-                  ),
+                  Text("Trivia Trek"),
                 ],
               ),
               Row(
@@ -258,66 +287,84 @@ class _TriviaHomePageState extends ConsumerState<TriviaHomePage> {
         ),
       ),
       //backgroundColor: Colors.white54,
-      body: Center(
-        child: Card(
-          elevation: 5, // elevation for the card widget
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(20),
-          ),
-          margin: EdgeInsets.all(16),
-          child: Padding(
-            padding: EdgeInsets.all(20),
-            child: Column(
-              mainAxisSize: MainAxisSize
-                  .min, // shrink to fit its children, only take as much space as needed
-              children: [
-                Text(
-                  question.questionText,
-                  style: AppStyles.tileText
-                ),
-                SizedBox(height: 20),
-                ...List.generate(question.options.length, (indexx) {
-                  // value of indexx starts from 0
-                  // number of option eg  options: ['Paris', 'London', 'Rome', 'Berlin'], 4
-                  return Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 6),
-                    child: ElevatedButton(
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.teal,
-                        foregroundColor: Colors.white,
-                        minimumSize: Size(double.infinity, 50),
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(30),
-                        ),
-                      ),
-                      onPressed: () {
-                        //updates scored when answer right
-                        if (indexx == question.correctIndex) {
-                          ref.read(scoreProvider.notifier).state++;
-                        }
-
-                        // Add this question to answeredQuestionsProvider
-                        final answered = ref.read(
-                          answerdQuestinsProvider.notifier,
-                        );
-                        answered.state = [
-                          ...answered.state,
-                          question.copyWith(userAnswerIndex: indexx),
-                        ];
-
-                        // Move to next question
-                        ref
-                            .read(currentQuestionProvider.notifier)
-                            .state++; // used this line to update to next question
-                      },
-                      child: Text(
-                        "${optionLabels[indexx]}.  ${question.options[indexx]}",
-                        style: AppStyles.tileText.copyWith(color: Colors.white,  fontWeight: FontWeight.w800,)
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.only(top: 20.0),
+          child: Card(
+            elevation: 5, // elevation for the card widget
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(20),
+            ),
+            margin: EdgeInsets.all(16),
+            child: Padding(
+              padding: EdgeInsets.all(20),
+              child: Column(
+                //mainAxisSize: MainAxisSize.min, // shrink to fit its children, only take as much space as needed  ////////////////////////////////////////////////////////////////////////////////
+                children: [
+                  Card(
+                    elevation: 5, // elevation for the card widget
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(20),
+                    ),
+                    margin: EdgeInsets.all(20.0),
+                    child: Padding(
+                      padding: const EdgeInsets.all(16.0),
+                      child: Image.asset(
+                        'assets/icon/trivia_App_logo.png',
+                        width: 100,
+                        height: 100,
                       ),
                     ),
-                  );
-                }),
-              ],
+                  ),
+                  SizedBox(height: 30.0),
+                  Text(question.questionText, style: AppStyles.tileText),
+                  SizedBox(height: 20),
+                  ...List.generate(question.options.length, (indexx) {
+                    // value of indexx starts from 0
+                    // number of option eg  options: ['Paris', 'London', 'Rome', 'Berlin'], 4
+                    return Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 6),
+                      child: ElevatedButton(
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: Colors.teal,
+                          foregroundColor: Colors.white,
+                          minimumSize: Size(double.infinity, 50),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(30),
+                          ),
+                        ),
+                        onPressed: () {
+                          //updates scored when answer right
+                          if (indexx == question.correctIndex) {
+                            ref.read(scoreProvider.notifier).state++;
+                          }
+
+                          // Add this question to answeredQuestionsProvider
+                          final answered = ref.read(
+                            answerdQuestinsProvider.notifier,
+                          );
+                          answered.state = [
+                            ...answered.state,
+                            question.copyWith(userAnswerIndex: indexx),
+                          ];
+
+                          // Move to next question
+                          ref
+                              .read(currentQuestionProvider.notifier)
+                              .state++; // used this line to update to next question
+                        },
+                        child: Text(
+                          "${optionLabels[indexx]}.  ${question.options[indexx]}",
+                          style: AppStyles.tileText.copyWith(
+                            color: Colors.white,
+                            fontWeight: FontWeight.w800,
+                          ),
+                        ),
+                      ),
+                    );
+                  }),
+                ],
+              ),
             ),
           ),
         ),

@@ -7,19 +7,23 @@ void main() {
 }
 
 class TriviaTrekApp extends StatelessWidget {
+  const TriviaTrekApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'TriviaTrek',
-      debugShowCheckedModeBanner: false,  // removes globally
+      debugShowCheckedModeBanner: false, // removes globally
       theme: ThemeData(
-         appBarTheme: const AppBarTheme(
-           titleTextStyle: TextStyle(
-           fontWeight: FontWeight.w900,
-           color: Colors.black,
-           fontSize: 20.0,),
-         ),
-          scaffoldBackgroundColor:Colors.teal.shade400 ),
+        appBarTheme: const AppBarTheme(
+          titleTextStyle: TextStyle(
+            fontWeight: FontWeight.w900,
+            color: Colors.black,
+            fontSize: 20.0,
+          ),
+        ),
+        scaffoldBackgroundColor: Colors.teal.shade400,
+      ),
 
       home: FirstScreen(),
     );

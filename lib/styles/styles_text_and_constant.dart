@@ -7,5 +7,5 @@ class AppStyles {
     fontSize: 20.0,
   );
 
-  static const int countDownTime = 80;
+  static const int countDownTime = 60;
 }

@@ -55,116 +55,111 @@ class FirstScreen extends ConsumerWidget {
               SizedBox(height: 10.0),
               Container(
                 padding: EdgeInsets.all(25.0),
-                child: Flexible(
-                  fit: FlexFit.tight, // behaves like Expanded
-                  child: StaggeredGrid.count(
-                    crossAxisCount: 2,
-                    crossAxisSpacing: 8,
-                    mainAxisSpacing: 8,
-                    children: [
-                      buildTile(
-                        Icons.public,
-                        "Geography",
-                        Colors.blue.shade700,
-                        () {
-                          ref.read(selectedCategoryProvider.notifier).state =
-                              'Geography';
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => TriviaHomePage(),
-                            ),
-                          );
-                        },
-                      ),
-                      /////////////////////////////////////   //
-                      buildTile(Icons.tv, "Movies", Colors.red, () {
+                child: StaggeredGrid.count(
+                  crossAxisCount: 2,
+                  crossAxisSpacing: 8,
+                  mainAxisSpacing: 8,
+                  children: [
+                    buildTile(
+                      Icons.public,
+                      "Geography",
+                      Colors.blue.shade700,
+                      () {
                         ref.read(selectedCategoryProvider.notifier).state =
-                            "Movies";
+                            'Geography';
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => TriviaHomePage(),
+                          ),
+                        );
+                      },
+                    ),
+                    /////////////////////////////////////   //
+                    buildTile(Icons.tv, "Movies", Colors.red, () {
+                      ref.read(selectedCategoryProvider.notifier).state =
+                          "Movies";
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (_) => TriviaHomePage()),
+                      );
+                    }),
+
+                    //////////////////////////////////
+                    buildTile(
+                      Icons.forest,
+                      "Animal & Plants",
+                      Colors.green.shade900,
+                      () {
+                        ref.read(selectedCategoryProvider.notifier).state =
+                            "Animals";
                         Navigator.push(
                           context,
                           MaterialPageRoute(builder: (_) => TriviaHomePage()),
                         );
-                      }),
+                      },
+                    ),
 
-                      //////////////////////////////////
-                      buildTile(
-                        Icons.forest,
-                        "Animal & Plants",
-                        Colors.green.shade900,
-                        () {
-                          ref.read(selectedCategoryProvider.notifier).state =
-                              "Animals";
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (_) => TriviaHomePage()),
-                          );
-                        },
-                      ),
-
-                      ////////////////////////////////////////
-                      buildTile(
-                        Icons.hourglass_bottom,
-                        "History",
-                        Colors.brown.shade700,
-                        () {
-                          ref.read(selectedCategoryProvider.notifier).state =
-                              "History";
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (_) => TriviaHomePage()),
-                          );
-                        },
-                      ),
-
-                      ///////////////////////////////////////
-                      buildTile(
-                        Icons.science,
-                        "Science & Tech",
-                        Colors.purple,
-                        () {
-                          ref.read(selectedCategoryProvider.notifier).state =
-                              "Science & Tech";
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (_) => TriviaHomePage()),
-                          );
-                        },
-                      ),
-
-                      /////////////////////////////////////////////
-                      buildTile(Icons.emoji_events, "Sport", Colors.teal, () {
+                    ////////////////////////////////////////
+                    buildTile(
+                      Icons.hourglass_bottom,
+                      "History",
+                      Colors.brown.shade700,
+                      () {
                         ref.read(selectedCategoryProvider.notifier).state =
-                            "Sports";
+                            "History";
                         Navigator.push(
                           context,
                           MaterialPageRoute(builder: (_) => TriviaHomePage()),
                         );
-                      }),
+                      },
+                    ),
 
-                      ///////////////////////////////////////////////
-                      StaggeredGridTile.count(
-                        crossAxisCellCount: 2, // last tile spans 2 columns
-                        mainAxisCellCount: 1,
-                        child: buildTile(
-                          Icons.shuffle,
-                          "All Categories",
-                          Colors.black87,
-                          () {
-                            ref.read(selectedCategoryProvider.notifier).state =
-                                null;
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (_) => TriviaHomePage(),
-                              ),
-                            );
-                          },
-                        ),
+                    ///////////////////////////////////////
+                    buildTile(
+                      Icons.science,
+                      "Science & Tech",
+                      Colors.purple,
+                      () {
+                        ref.read(selectedCategoryProvider.notifier).state =
+                            "Science & Tech";
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (_) => TriviaHomePage()),
+                        );
+                      },
+                    ),
+
+                    /////////////////////////////////////////////
+                    buildTile(Icons.emoji_events, "Sport", Colors.teal, () {
+                      ref.read(selectedCategoryProvider.notifier).state =
+                          "Sports";
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (_) => TriviaHomePage()),
+                      );
+                    }),
+
+                    ///////////////////////////////////////////////
+                    StaggeredGridTile.count(
+                      crossAxisCellCount: 2, // last tile spans 2 columns
+                      mainAxisCellCount: 1,
+                      child: buildTile(
+                        Icons.shuffle,
+                        "All Categories",
+                        Colors.black87,
+                        () {
+                          ref.read(selectedCategoryProvider.notifier).state =
+                              null;
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (_) => TriviaHomePage()),
+                          );
+                        },
                       ),
-                      ////////////////////////////////////////////////
-                    ],
-                  ),
+                    ),
+                    ////////////////////////////////////////////////
+                  ],
                 ),
               ),
             ],
