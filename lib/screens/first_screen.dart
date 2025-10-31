@@ -179,20 +179,34 @@ class FirstScreen extends ConsumerWidget {
   ) {
     return InkWell(
       onTap: onTapF,
+      /*onHover: (hovering) {
+        // You can add hover animations later if needed
+      },*/
       borderRadius: BorderRadius.circular(12),
-      child: Container(
-        decoration: BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.circular(12),
-        ),
-        padding: EdgeInsets.all(8),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(icon, size: 50, color: color),
-            SizedBox(height: 5), // spacing between icon and label
-            Text(label, style: AppStyles.tileText, textAlign: TextAlign.center),
-          ],
+      child: Material(
+        //Material widget to give elevation
+        elevation: 6,
+        shadowColor: Colors.black87,
+        //color: Colors.white,
+        borderRadius: BorderRadius.circular(12),
+        child: Container(
+          decoration: BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.circular(12),
+          ),
+          padding: EdgeInsets.all(8),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(icon, size: 50, color: color),
+              SizedBox(height: 5), // spacing between icon and label
+              Text(
+                label,
+                style: AppStyles.tileText,
+                textAlign: TextAlign.center,
+              ),
+            ],
+          ),
         ),
       ),
     );

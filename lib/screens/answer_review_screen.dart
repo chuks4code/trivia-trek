@@ -15,9 +15,7 @@ class AnswerReviewScreen extends ConsumerWidget {
         automaticallyImplyLeading:
             false, // removes the back arrow so user only use button
         backgroundColor: Colors.grey.shade200,
-        title: const Text(
-          "Answer Review",
-        ),
+        title: const Text("Answer Review"),
         centerTitle: true,
         iconTheme: const IconThemeData(color: Colors.white),
       ),
@@ -27,7 +25,6 @@ class AnswerReviewScreen extends ConsumerWidget {
         itemCount: answeredQuestions.length,
         itemBuilder: (context, index) {
           final question = answeredQuestions[index];
-
 
           final userAnswerIndex =
               (question as dynamic).userAnswerIndex ?? -1; // temp workaround
@@ -71,8 +68,11 @@ class AnswerReviewScreen extends ConsumerWidget {
                   Text(
                     "Your Answer: ${userAnswerIndex >= 0 ? question.options[userAnswerIndex] : "No answer"}",
                     style: TextStyle(
-                      color: isCorrect ? Colors.purple.shade900 : Colors.red.shade900,
-                      fontSize: 18, fontWeight: FontWeight.w900
+                      color: isCorrect
+                          ? Colors.purple.shade900
+                          : Colors.red.shade900,
+                      fontSize: 18,
+                      fontWeight: FontWeight.w900,
                     ),
                   ),
 
@@ -81,7 +81,11 @@ class AnswerReviewScreen extends ConsumerWidget {
                     const SizedBox(height: 4),
                     Text(
                       "Correct Answer: ${question.options[question.correctIndex]}",
-                      style: TextStyle(color: Colors.purple[900], fontSize: 18, fontWeight: FontWeight.w900),
+                      style: TextStyle(
+                        color: Colors.purple[900],
+                        fontSize: 18,
+                        fontWeight: FontWeight.w900,
+                      ),
                     ),
                   ],
                 ],
@@ -115,8 +119,12 @@ class AnswerReviewScreen extends ConsumerWidget {
                     //ref.read(scoreProvider.notifier).state = 0;
                     //ref.read(answerdQuestinsProvider.notifier).state = [];
                   },
-                  icon: Icon(Icons.arrow_back, color: Colors.black,fontWeight: FontWeight.bold,),
-                  label: Text('Back to Trivia',style: AppStyles.tileText ),
+                  icon: Icon(
+                    Icons.arrow_back,
+                    color: Colors.black,
+                    fontWeight: FontWeight.bold,
+                  ),
+                  label: Text(' Back ', style: AppStyles.tileText),
                 ),
               ),
             ],
