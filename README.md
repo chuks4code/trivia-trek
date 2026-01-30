@@ -77,16 +77,13 @@ State management is responsible for:
 
 ## 📸 Screenshots
 
-*(Add screenshots or a short demo video here — this greatly improves recruiter engagement.)*
-<img width="1344" height="2992" alt="image" src="https://github.com/user-attachments/assets/e7765d6c-af98-4b2d-9f81-683838906add" />
-<img width="1344" height="2992" alt="image" src="https://github.com/user-attachments/assets/5fcb83e8-e293-4e35-a7a5-dc40caac2492" />
-<img width="1344" height="2992" alt="image" src="https://github.com/user-attachments/assets/80dd2580-86f6-4e1a-be24-7d9619cbd4b6" />
-<img width="1344" height="2992" alt="image" src="https://github.com/user-attachments/assets/f6bdc84f-ddd0-46bd-9bbc-904c7e7184e3" />
-<img width="1344" height="2992" alt="image" src="https://github.com/user-attachments/assets/dfc58627-b035-44c4-b0af-648375e22a61" />
-<img width="955" height="2048" alt="image" src="https://github.com/user-attachments/assets/0a97e216-1d00-4653-8bab-3e52604c3715" />
-<img width="955" height="2048" alt="image" src="https://github.com/user-attachments/assets/25ce7c07-6c50-457a-afce-8520fc11f1af" />
-
-
+  <img src="https://github.com/user-attachments/assets/e7765d6c-af98-4b2d-9f81-683838906add" width="240" />
+  <img src="https://github.com/user-attachments/assets/5fcb83e8-e293-4e35-a7a5-dc40caac2492" width="240" />
+  <img src="https://github.com/user-attachments/assets/80dd2580-86f6-4e1a-be24-7d9619cbd4b6" width="240" />
+  <img src="https://github.com/user-attachments/assets/f6bdc84f-ddd0-46bd-9bbc-904c7e7184e3" width="240" />
+  <img src="https://github.com/user-attachments/assets/dfc58627-b035-44c4-b0af-648375e22a61" width="240" />
+  <img src="https://github.com/user-attachments/assets/0a97e216-1d00-4653-8bab-3e52604c3715" width="240" />
+  <img src="https://github.com/user-attachments/assets/25ce7c07-6c50-457a-afce-8520fc11f1af" width="240" />
 
 ---
 
