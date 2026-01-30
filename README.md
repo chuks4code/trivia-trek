@@ -76,6 +76,10 @@ State management is responsible for:
 ---
 
 ## 📸 Screenshots
+  
+
+https://github.com/user-attachments/assets/8019e88a-469a-443f-91b3-387e82dff468
+
 
   <img src="https://github.com/user-attachments/assets/e7765d6c-af98-4b2d-9f81-683838906add" width="240" />
   <img src="https://github.com/user-attachments/assets/5fcb83e8-e293-4e35-a7a5-dc40caac2492" width="240" />
